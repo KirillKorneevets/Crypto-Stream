@@ -7959,3 +7959,1454 @@ jinja2.exceptions.TemplateNotFound: ethusdt.html
 2024-02-05 11:00:58,334 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707120045541"}]}' [143 bytes]
 2024-02-05 11:00:58,334 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707120045717"}]}' [143 bytes]
 2024-02-05 11:00:58,335 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707120045737"}]}' [142 bytes]
+2024-02-05 11:52:38,172 [DEBUG] asyncio: Using proactor: IocpProactor
+2024-02-05 11:52:38,188 [WARNING] application: WebSocket transport not available. Install gevent-websocket for improved performance.
+2024-02-05 11:52:38,242 [DEBUG] websockets.client: = connection is CONNECTING
+2024-02-05 11:52:38,332 [DEBUG] websockets.client: > GET /ws/v5/public HTTP/1.1
+2024-02-05 11:52:38,332 [DEBUG] websockets.client: > Host: ws.okx.com:8443
+2024-02-05 11:52:38,332 [DEBUG] websockets.client: > Upgrade: websocket
+2024-02-05 11:52:38,332 [DEBUG] websockets.client: > Connection: Upgrade
+2024-02-05 11:52:38,332 [DEBUG] websockets.client: > Sec-WebSocket-Key: 2xwgd/efACZadLR5s868Iw==
+2024-02-05 11:52:38,332 [DEBUG] websockets.client: > Sec-WebSocket-Version: 13
+2024-02-05 11:52:38,332 [DEBUG] websockets.client: > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2024-02-05 11:52:38,332 [DEBUG] websockets.client: > User-Agent: Python/3.11 websockets/12.0
+2024-02-05 11:52:39,267 [DEBUG] websockets.client: < HTTP/1.1 101 Switching Protocols
+2024-02-05 11:52:39,267 [DEBUG] websockets.client: < Date: Mon, 05 Feb 2024 08:52:39 GMT
+2024-02-05 11:52:39,267 [DEBUG] websockets.client: < Connection: upgrade
+2024-02-05 11:52:39,267 [DEBUG] websockets.client: < upgrade: websocket
+2024-02-05 11:52:39,268 [DEBUG] websockets.client: < sec-websocket-accept: FU/A5aB/3Pyke9XbJaJ+H7agRe8=
+2024-02-05 11:52:39,268 [DEBUG] websockets.client: < sec-websocket-extensions: permessage-deflate
+2024-02-05 11:52:39,268 [DEBUG] websockets.client: < CF-Cache-Status: DYNAMIC
+2024-02-05 11:52:39,268 [DEBUG] websockets.client: < Set-Cookie: __cf_bm=xAloL5WH3KnEN7EbOuDn5uqYTB1srNVbpAqAI80sIqo-1707123159-1-AZYhqDhYg+MUym4tKx6E+Lo6zIYR7FjtHaxf6MvpoFbbgHymkiaVspH3RsG7olfN7uCED87w2wBO1daA/U9UOGo=; path=/; expires=Mon, 05-Feb-24 09:22:39 GMT; domain=.okx.com; HttpOnly; Secure; SameSite=None
+2024-02-05 11:52:39,269 [DEBUG] websockets.client: < Server: cloudflare
+2024-02-05 11:52:39,269 [DEBUG] websockets.client: < CF-RAY: 8509eb1c2b223539-WAW
+2024-02-05 11:52:39,272 [DEBUG] websockets.client: = connection is OPEN
+2024-02-05 11:52:39,273 [INFO] logging_config: Connected to OKX2024-02-05T11:52:39.273499
+2024-02-05 11:52:39,273 [DEBUG] websockets.client: > TEXT '{"op": "subscribe", "args": [{"channel": "mark-..."instId": "XRP-USDT"}]}' [176 bytes]
+2024-02-05 11:52:39,574 [DEBUG] websockets.client: < TEXT '{"event":"subscribe","arg":{"channel":"mark-pri..."},"connId":"01aa9663"}' [92 bytes]
+2024-02-05 11:52:39,575 [DEBUG] websockets.client: < TEXT '{"event":"subscribe","arg":{"channel":"mark-pri..."},"connId":"01aa9663"}' [92 bytes]
+2024-02-05 11:52:39,575 [DEBUG] websockets.client: < TEXT '{"event":"subscribe","arg":{"channel":"mark-pri..."},"connId":"01aa9663"}' [92 bytes]
+2024-02-05 11:52:39,575 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123159387"}]}' [143 bytes]
+2024-02-05 11:52:39,576 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123159240"}]}' [143 bytes]
+2024-02-05 11:52:39,576 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123159351"}]}' [142 bytes]
+2024-02-05 11:52:39,577 [INFO] logging_config: ******** event subscribe ********
+2024-02-05 11:52:39,577 [INFO] logging_config: ******** event subscribe ********
+2024-02-05 11:52:39,577 [INFO] logging_config: ******** event subscribe ********
+2024-02-05 11:52:39,609 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123159440"}]}' [143 bytes]
+2024-02-05 11:52:39,713 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123159554"}]}' [142 bytes]
+2024-02-05 11:52:39,751 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123159590"}]}' [143 bytes]
+2024-02-05 11:52:39,802 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123159642"}]}' [143 bytes]
+2024-02-05 11:52:39,913 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123159755"}]}' [142 bytes]
+2024-02-05 11:52:39,952 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123159791"}]}' [143 bytes]
+2024-02-05 11:52:40,001 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123159843"}]}' [143 bytes]
+2024-02-05 11:52:40,115 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123159957"}]}' [142 bytes]
+2024-02-05 11:52:40,149 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123159992"}]}' [143 bytes]
+2024-02-05 11:52:40,202 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123160044"}]}' [143 bytes]
+2024-02-05 11:52:40,317 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123160160"}]}' [142 bytes]
+2024-02-05 11:52:40,352 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123160192"}]}' [143 bytes]
+2024-02-05 11:52:40,409 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123160246"}]}' [143 bytes]
+2024-02-05 11:52:40,521 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123160361"}]}' [142 bytes]
+2024-02-05 11:52:40,555 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123160394"}]}' [143 bytes]
+2024-02-05 11:52:40,605 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123160447"}]}' [143 bytes]
+2024-02-05 11:52:40,724 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123160563"}]}' [142 bytes]
+2024-02-05 11:52:40,756 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123160595"}]}' [143 bytes]
+2024-02-05 11:52:40,799 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123160648"}]}' [143 bytes]
+2024-02-05 11:52:40,929 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123160764"}]}' [142 bytes]
+2024-02-05 11:52:40,957 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123160797"}]}' [143 bytes]
+2024-02-05 11:52:41,002 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123160849"}]}' [143 bytes]
+2024-02-05 11:52:41,128 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123160966"}]}' [142 bytes]
+2024-02-05 11:52:41,161 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123160998"}]}' [143 bytes]
+2024-02-05 11:52:41,208 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123161050"}]}' [143 bytes]
+2024-02-05 11:52:41,327 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123161169"}]}' [142 bytes]
+2024-02-05 11:52:41,361 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123161199"}]}' [143 bytes]
+2024-02-05 11:52:41,413 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123161251"}]}' [143 bytes]
+2024-02-05 11:52:41,531 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123161371"}]}' [142 bytes]
+2024-02-05 11:52:41,567 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123161401"}]}' [143 bytes]
+2024-02-05 11:52:44,580 [INFO] logging_config: 2024-02-05T11:52:44.580571 BTC-USDT = 43052.1
+2024-02-05 11:52:44,580 [INFO] logging_config: 2024-02-05T11:52:44.580571 ETH-USDT = 2323.27
+2024-02-05 11:52:44,581 [INFO] logging_config: 2024-02-05T11:52:44.581582 XRP-USDT = 0.504
+2024-02-05 11:52:44,581 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123161452"}]}' [143 bytes]
+2024-02-05 11:52:44,582 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123161572"}]}' [142 bytes]
+2024-02-05 11:52:44,582 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123161601"}]}' [143 bytes]
+2024-02-05 11:52:49,596 [INFO] logging_config: 2024-02-05T11:52:49.596894 ETH-USDT = 2323.27
+2024-02-05 11:52:49,596 [INFO] logging_config: 2024-02-05T11:52:49.596894 XRP-USDT = 0.504
+2024-02-05 11:52:49,597 [INFO] logging_config: 2024-02-05T11:52:49.597896 BTC-USDT = 43052.0
+2024-02-05 11:52:49,597 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123161653"}]}' [143 bytes]
+2024-02-05 11:52:49,597 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123161774"}]}' [142 bytes]
+2024-02-05 11:52:49,598 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123161803"}]}' [143 bytes]
+2024-02-05 11:52:54,620 [INFO] logging_config: 2024-02-05T11:52:54.620910 ETH-USDT = 2323.27
+2024-02-05 11:52:54,620 [INFO] logging_config: 2024-02-05T11:52:54.620910 XRP-USDT = 0.504
+2024-02-05 11:52:54,622 [INFO] logging_config: 2024-02-05T11:52:54.622139 BTC-USDT = 43052.0
+2024-02-05 11:52:54,622 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123161854"}]}' [143 bytes]
+2024-02-05 11:52:54,622 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123161977"}]}' [142 bytes]
+2024-02-05 11:52:54,622 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123162004"}]}' [143 bytes]
+2024-02-05 11:52:59,623 [INFO] logging_config: 2024-02-05T11:52:59.623797 ETH-USDT = 2323.27
+2024-02-05 11:52:59,623 [INFO] logging_config: 2024-02-05T11:52:59.623797 XRP-USDT = 0.5039
+2024-02-05 11:52:59,624 [INFO] logging_config: 2024-02-05T11:52:59.623797 BTC-USDT = 43052.0
+2024-02-05 11:52:59,624 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123162056"}]}' [143 bytes]
+2024-02-05 11:52:59,624 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123162178"}]}' [142 bytes]
+2024-02-05 11:52:59,624 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123162205"}]}' [143 bytes]
+2024-02-05 11:53:04,633 [INFO] logging_config: 2024-02-05T11:53:04.633460 ETH-USDT = 2323.27
+2024-02-05 11:53:04,633 [INFO] logging_config: 2024-02-05T11:53:04.633460 XRP-USDT = 0.5039
+2024-02-05 11:53:04,633 [INFO] logging_config: 2024-02-05T11:53:04.633460 BTC-USDT = 43052.0
+2024-02-05 11:53:04,633 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123162257"}]}' [143 bytes]
+2024-02-05 11:53:04,633 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123162379"}]}' [142 bytes]
+2024-02-05 11:53:04,633 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123162407"}]}' [143 bytes]
+2024-02-05 11:53:09,277 [DEBUG] websockets.client: % sending keepalive ping
+2024-02-05 11:53:09,278 [DEBUG] websockets.client: > PING 'g:dn' [text, 4 bytes]
+2024-02-05 11:53:09,651 [INFO] logging_config: 2024-02-05T11:53:09.651470 ETH-USDT = 2323.27
+2024-02-05 11:53:09,651 [INFO] logging_config: 2024-02-05T11:53:09.651470 XRP-USDT = 0.5039
+2024-02-05 11:53:09,652 [INFO] logging_config: 2024-02-05T11:53:09.652248 BTC-USDT = 43052.0
+2024-02-05 11:53:09,652 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123162458"}]}' [143 bytes]
+2024-02-05 11:53:09,652 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123162581"}]}' [142 bytes]
+2024-02-05 11:53:09,652 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123162608"}]}' [143 bytes]
+2024-02-05 11:53:14,653 [INFO] logging_config: 2024-02-05T11:53:14.653884 ETH-USDT = 2323.27
+2024-02-05 11:53:14,653 [INFO] logging_config: 2024-02-05T11:53:14.653884 XRP-USDT = 0.5039
+2024-02-05 11:53:14,653 [INFO] logging_config: 2024-02-05T11:53:14.653884 BTC-USDT = 43052.0
+2024-02-05 11:53:14,653 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123162659"}]}' [143 bytes]
+2024-02-05 11:53:14,654 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123162784"}]}' [142 bytes]
+2024-02-05 11:53:14,654 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123162809"}]}' [143 bytes]
+2024-02-05 11:53:19,656 [INFO] logging_config: 2024-02-05T11:53:19.656956 ETH-USDT = 2323.26
+2024-02-05 11:53:19,657 [INFO] logging_config: 2024-02-05T11:53:19.656956 XRP-USDT = 0.5039
+2024-02-05 11:53:19,657 [INFO] logging_config: 2024-02-05T11:53:19.657521 BTC-USDT = 43052.0
+2024-02-05 11:53:19,657 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123162861"}]}' [143 bytes]
+2024-02-05 11:53:19,657 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123162984"}]}' [142 bytes]
+2024-02-05 11:53:19,657 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123163009"}]}' [143 bytes]
+2024-02-05 11:53:24,668 [INFO] logging_config: 2024-02-05T11:53:24.668663 ETH-USDT = 2323.26
+2024-02-05 11:53:24,669 [INFO] logging_config: 2024-02-05T11:53:24.669605 XRP-USDT = 0.5039
+2024-02-05 11:53:24,669 [INFO] logging_config: 2024-02-05T11:53:24.669605 BTC-USDT = 43052.0
+2024-02-05 11:53:24,669 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123163062"}]}' [143 bytes]
+2024-02-05 11:53:24,670 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123163185"}]}' [142 bytes]
+2024-02-05 11:53:24,670 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123163210"}]}' [143 bytes]
+2024-02-05 11:53:29,667 [INFO] logging_config: 2024-02-05T11:53:29.667872 ETH-USDT = 2323.26
+2024-02-05 11:53:29,668 [INFO] logging_config: 2024-02-05T11:53:29.668597 XRP-USDT = 0.5039
+2024-02-05 11:53:29,668 [INFO] logging_config: 2024-02-05T11:53:29.668597 BTC-USDT = 43052.4
+2024-02-05 11:53:29,668 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123163262"}]}' [143 bytes]
+2024-02-05 11:53:29,668 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123163385"}]}' [142 bytes]
+2024-02-05 11:53:29,669 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123163413"}]}' [143 bytes]
+2024-02-05 11:53:34,671 [INFO] logging_config: 2024-02-05T11:53:34.671418 ETH-USDT = 2323.26
+2024-02-05 11:53:34,671 [INFO] logging_config: 2024-02-05T11:53:34.671418 XRP-USDT = 0.5039
+2024-02-05 11:53:34,671 [INFO] logging_config: 2024-02-05T11:53:34.671418 BTC-USDT = 43052.3
+2024-02-05 11:53:34,672 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123163463"}]}' [143 bytes]
+2024-02-05 11:53:34,672 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123163587"}]}' [142 bytes]
+2024-02-05 11:53:34,672 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123163612"}]}' [143 bytes]
+2024-02-05 11:53:39,667 [INFO] logging_config: 2024-02-05T11:53:39.667165 ETH-USDT = 2323.26
+2024-02-05 11:53:39,667 [INFO] logging_config: 2024-02-05T11:53:39.667165 XRP-USDT = 0.5039
+2024-02-05 11:53:39,667 [INFO] logging_config: 2024-02-05T11:53:39.667165 BTC-USDT = 43052.3
+2024-02-05 11:53:39,667 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123163664"}]}' [143 bytes]
+2024-02-05 11:53:39,667 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123163790"}]}' [142 bytes]
+2024-02-05 11:53:39,667 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123163814"}]}' [143 bytes]
+2024-02-05 11:53:44,678 [INFO] logging_config: 2024-02-05T11:53:44.678868 ETH-USDT = 2323.27
+2024-02-05 11:53:44,679 [INFO] logging_config: 2024-02-05T11:53:44.679504 XRP-USDT = 0.5039
+2024-02-05 11:53:44,679 [INFO] logging_config: 2024-02-05T11:53:44.679504 BTC-USDT = 43052.3
+2024-02-05 11:53:44,679 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123163865"}]}' [143 bytes]
+2024-02-05 11:53:44,680 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123163992"}]}' [142 bytes]
+2024-02-05 11:53:44,680 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123164014"}]}' [143 bytes]
+2024-02-05 11:53:49,665 [INFO] logging_config: 2024-02-05T11:53:49.665511 ETH-USDT = 2323.27
+2024-02-05 11:53:49,665 [INFO] logging_config: 2024-02-05T11:53:49.665511 XRP-USDT = 0.5039
+2024-02-05 11:53:49,665 [INFO] logging_config: 2024-02-05T11:53:49.665511 BTC-USDT = 43052.3
+2024-02-05 11:53:49,665 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123164069"}]}' [143 bytes]
+2024-02-05 11:53:49,665 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123164193"}]}' [142 bytes]
+2024-02-05 11:53:49,665 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123164214"}]}' [143 bytes]
+2024-02-05 11:53:54,673 [INFO] logging_config: 2024-02-05T11:53:54.673719 ETH-USDT = 2323.27
+2024-02-05 11:53:54,673 [INFO] logging_config: 2024-02-05T11:53:54.673719 XRP-USDT = 0.5039
+2024-02-05 11:53:54,674 [INFO] logging_config: 2024-02-05T11:53:54.674384 BTC-USDT = 43052.3
+2024-02-05 11:53:54,674 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123164270"}]}' [143 bytes]
+2024-02-05 11:53:54,674 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123164394"}]}' [142 bytes]
+2024-02-05 11:53:54,674 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123164416"}]}' [143 bytes]
+2024-02-05 11:53:59,687 [INFO] logging_config: 2024-02-05T11:53:59.687967 ETH-USDT = 2323.27
+2024-02-05 11:53:59,687 [INFO] logging_config: 2024-02-05T11:53:59.687967 XRP-USDT = 0.504
+2024-02-05 11:53:59,687 [INFO] logging_config: 2024-02-05T11:53:59.687967 BTC-USDT = 43052.3
+2024-02-05 11:53:59,687 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123164471"}]}' [143 bytes]
+2024-02-05 11:53:59,687 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123164596"}]}' [142 bytes]
+2024-02-05 11:53:59,688 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123164617"}]}' [143 bytes]
+2024-02-05 11:54:04,707 [INFO] logging_config: 2024-02-05T11:54:04.707064 ETH-USDT = 2323.27
+2024-02-05 11:54:04,707 [INFO] logging_config: 2024-02-05T11:54:04.707064 XRP-USDT = 0.5041
+2024-02-05 11:54:04,707 [INFO] logging_config: 2024-02-05T11:54:04.707064 BTC-USDT = 43052.3
+2024-02-05 11:54:04,707 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123164672"}]}' [143 bytes]
+2024-02-05 11:54:04,708 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123164797"}]}' [142 bytes]
+2024-02-05 11:54:04,708 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123164818"}]}' [143 bytes]
+2024-02-05 11:54:09,714 [INFO] logging_config: 2024-02-05T11:54:09.714727 ETH-USDT = 2323.27
+2024-02-05 11:54:09,714 [INFO] logging_config: 2024-02-05T11:54:09.714727 XRP-USDT = 0.5042
+2024-02-05 11:54:09,714 [INFO] logging_config: 2024-02-05T11:54:09.714727 BTC-USDT = 43052.3
+2024-02-05 11:54:09,714 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123164874"}]}' [143 bytes]
+2024-02-05 11:54:09,715 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123165000"}]}' [142 bytes]
+2024-02-05 11:54:09,715 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123165020"}]}' [143 bytes]
+2024-02-05 11:54:14,717 [INFO] logging_config: 2024-02-05T11:54:14.717338 ETH-USDT = 2323.27
+2024-02-05 11:54:14,717 [INFO] logging_config: 2024-02-05T11:54:14.717338 XRP-USDT = 0.5042
+2024-02-05 11:54:14,717 [INFO] logging_config: 2024-02-05T11:54:14.717338 BTC-USDT = 43052.3
+2024-02-05 11:54:14,718 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123165075"}]}' [143 bytes]
+2024-02-05 11:54:14,718 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123165202"}]}' [142 bytes]
+2024-02-05 11:54:14,718 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123165220"}]}' [143 bytes]
+2024-02-05 11:54:19,712 [INFO] logging_config: 2024-02-05T11:54:19.712854 ETH-USDT = 2323.27
+2024-02-05 11:54:19,712 [INFO] logging_config: 2024-02-05T11:54:19.712854 XRP-USDT = 0.5042
+2024-02-05 11:54:19,713 [INFO] logging_config: 2024-02-05T11:54:19.713855 BTC-USDT = 43052.3
+2024-02-05 11:54:19,713 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123165277"}]}' [143 bytes]
+2024-02-05 11:54:19,713 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123165405"}]}' [142 bytes]
+2024-02-05 11:54:19,713 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123165420"}]}' [143 bytes]
+2024-02-05 11:54:24,732 [INFO] logging_config: 2024-02-05T11:54:24.732320 ETH-USDT = 2323.36
+2024-02-05 11:54:24,732 [INFO] logging_config: 2024-02-05T11:54:24.732320 XRP-USDT = 0.5042
+2024-02-05 11:54:24,732 [INFO] logging_config: 2024-02-05T11:54:24.732320 BTC-USDT = 43052.3
+2024-02-05 11:54:24,733 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123165478"}]}' [143 bytes]
+2024-02-05 11:54:24,733 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123165607"}]}' [142 bytes]
+2024-02-05 11:54:24,733 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123165622"}]}' [143 bytes]
+2024-02-05 11:54:29,721 [INFO] logging_config: 2024-02-05T11:54:29.721180 ETH-USDT = 2323.51
+2024-02-05 11:54:29,721 [INFO] logging_config: 2024-02-05T11:54:29.721180 XRP-USDT = 0.5043
+2024-02-05 11:54:29,721 [INFO] logging_config: 2024-02-05T11:54:29.721180 BTC-USDT = 43052.3
+2024-02-05 11:54:29,721 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123165679"}]}' [143 bytes]
+2024-02-05 11:54:29,721 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123165808"}]}' [142 bytes]
+2024-02-05 11:54:29,721 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123165823"}]}' [143 bytes]
+2024-02-05 11:54:34,727 [INFO] logging_config: 2024-02-05T11:54:34.727974 ETH-USDT = 2323.51
+2024-02-05 11:54:34,727 [INFO] logging_config: 2024-02-05T11:54:34.727974 XRP-USDT = 0.5043
+2024-02-05 11:54:34,727 [INFO] logging_config: 2024-02-05T11:54:34.727974 BTC-USDT = 43052.3
+2024-02-05 11:54:34,727 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123165880"}]}' [143 bytes]
+2024-02-05 11:54:34,728 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123166011"}]}' [142 bytes]
+2024-02-05 11:54:34,728 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123166024"}]}' [143 bytes]
+2024-02-05 11:54:39,283 [DEBUG] websockets.client: ! timed out waiting for keepalive pong
+2024-02-05 11:54:39,284 [DEBUG] websockets.client: ! failing connection with code 1011
+2024-02-05 11:54:39,285 [DEBUG] websockets.client: = connection is CLOSING
+2024-02-05 11:54:39,285 [DEBUG] websockets.client: > CLOSE 1011 (internal error) keepalive ping timeout [24 bytes]
+2024-02-05 11:54:39,733 [INFO] logging_config: 2024-02-05T11:54:39.733831 ETH-USDT = 2323.56
+2024-02-05 11:54:39,733 [INFO] logging_config: 2024-02-05T11:54:39.733831 XRP-USDT = 0.5043
+2024-02-05 11:54:39,733 [INFO] logging_config: 2024-02-05T11:54:39.733831 BTC-USDT = 43052.3
+2024-02-05 11:54:44,737 [INFO] logging_config: 2024-02-05T11:54:44.737678 ETH-USDT = 2323.56
+2024-02-05 11:54:44,737 [INFO] logging_config: 2024-02-05T11:54:44.737678 XRP-USDT = 0.5043
+2024-02-05 11:54:44,737 [INFO] logging_config: 2024-02-05T11:54:44.737678 BTC-USDT = 43052.3
+2024-02-05 11:54:49,288 [DEBUG] websockets.client: ! timed out waiting for TCP close
+2024-02-05 11:54:49,288 [DEBUG] websockets.client: x closing TCP connection
+2024-02-05 11:54:49,742 [INFO] logging_config: 2024-02-05T11:54:49.742800 ETH-USDT = 2323.56
+2024-02-05 11:54:49,742 [INFO] logging_config: 2024-02-05T11:54:49.742800 XRP-USDT = 0.5043
+2024-02-05 11:54:49,742 [INFO] logging_config: 2024-02-05T11:54:49.742800 BTC-USDT = 43052.3
+2024-02-05 11:54:54,756 [INFO] logging_config: 2024-02-05T11:54:54.756414 ETH-USDT = 2323.56
+2024-02-05 11:54:54,756 [INFO] logging_config: 2024-02-05T11:54:54.756414 XRP-USDT = 0.5043
+2024-02-05 11:54:54,756 [INFO] logging_config: 2024-02-05T11:54:54.756414 BTC-USDT = 43052.4
+2024-02-05 11:54:59,301 [DEBUG] websockets.client: ! timed out waiting for TCP close
+2024-02-05 11:54:59,301 [DEBUG] websockets.client: x aborting TCP connection
+2024-02-05 11:54:59,301 [DEBUG] websockets.client: = connection is CLOSED
+2024-02-05 11:54:59,768 [INFO] logging_config: 2024-02-05T11:54:59.768010 ETH-USDT = 2323.56
+2024-02-05 11:54:59,768 [INFO] logging_config: 2024-02-05T11:54:59.768010 XRP-USDT = 0.5043
+2024-02-05 11:54:59,769 [INFO] logging_config: 2024-02-05T11:54:59.769014 BTC-USDT = 43052.4
+2024-02-05 11:55:04,781 [INFO] logging_config: 2024-02-05T11:55:04.781660 ETH-USDT = 2323.56
+2024-02-05 11:55:04,782 [INFO] logging_config: 2024-02-05T11:55:04.782429 XRP-USDT = 0.5042
+2024-02-05 11:55:04,783 [INFO] logging_config: 2024-02-05T11:55:04.783415 BTC-USDT = 43053.5
+2024-02-05 11:55:09,789 [INFO] logging_config: 2024-02-05T11:55:09.789276 ETH-USDT = 2323.56
+2024-02-05 11:55:09,789 [INFO] logging_config: 2024-02-05T11:55:09.789725 XRP-USDT = 0.5042
+2024-02-05 11:55:09,789 [INFO] logging_config: 2024-02-05T11:55:09.789725 BTC-USDT = 43053.5
+2024-02-05 11:55:14,796 [INFO] logging_config: 2024-02-05T11:55:14.796483 ETH-USDT = 2323.55
+2024-02-05 11:55:14,796 [INFO] logging_config: 2024-02-05T11:55:14.796483 XRP-USDT = 0.5042
+2024-02-05 11:55:14,796 [INFO] logging_config: 2024-02-05T11:55:14.796483 BTC-USDT = 43054.4
+2024-02-05 11:55:19,802 [INFO] logging_config: 2024-02-05T11:55:19.802042 ETH-USDT = 2323.55
+2024-02-05 11:55:19,802 [INFO] logging_config: 2024-02-05T11:55:19.802042 XRP-USDT = 0.5042
+2024-02-05 11:55:19,802 [INFO] logging_config: 2024-02-05T11:55:19.802042 BTC-USDT = 43054.5
+2024-02-05 11:55:24,813 [INFO] logging_config: 2024-02-05T11:55:24.813553 ETH-USDT = 2323.55
+2024-02-05 11:55:24,813 [INFO] logging_config: 2024-02-05T11:55:24.813553 XRP-USDT = 0.5042
+2024-02-05 11:55:24,813 [INFO] logging_config: 2024-02-05T11:55:24.813553 BTC-USDT = 43054.5
+2024-02-05 11:55:29,825 [INFO] logging_config: 2024-02-05T11:55:29.825269 ETH-USDT = 2323.55
+2024-02-05 11:55:29,825 [INFO] logging_config: 2024-02-05T11:55:29.825269 XRP-USDT = 0.5042
+2024-02-05 11:55:29,825 [ERROR] logging_config: Connection to OKX closed: sent 1011 (internal error) keepalive ping timeout; no close frame received
+2024-02-05 11:55:34,863 [DEBUG] websockets.client: = connection is CONNECTING
+2024-02-05 11:55:34,917 [DEBUG] websockets.client: > GET /ws/v5/public HTTP/1.1
+2024-02-05 11:55:34,917 [DEBUG] websockets.client: > Host: ws.okx.com:8443
+2024-02-05 11:55:34,917 [DEBUG] websockets.client: > Upgrade: websocket
+2024-02-05 11:55:34,917 [DEBUG] websockets.client: > Connection: Upgrade
+2024-02-05 11:55:34,917 [DEBUG] websockets.client: > Sec-WebSocket-Key: OFSbirHzTjQm4LBuzUbt4w==
+2024-02-05 11:55:34,917 [DEBUG] websockets.client: > Sec-WebSocket-Version: 13
+2024-02-05 11:55:34,917 [DEBUG] websockets.client: > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2024-02-05 11:55:34,917 [DEBUG] websockets.client: > User-Agent: Python/3.11 websockets/12.0
+2024-02-05 11:55:35,844 [DEBUG] websockets.client: < HTTP/1.1 101 Switching Protocols
+2024-02-05 11:55:35,844 [DEBUG] websockets.client: < Date: Mon, 05 Feb 2024 08:55:35 GMT
+2024-02-05 11:55:35,844 [DEBUG] websockets.client: < Connection: upgrade
+2024-02-05 11:55:35,844 [DEBUG] websockets.client: < upgrade: websocket
+2024-02-05 11:55:35,844 [DEBUG] websockets.client: < sec-websocket-accept: fa7FN3AGQ1NAlN+vg2hXnuOLqas=
+2024-02-05 11:55:35,844 [DEBUG] websockets.client: < sec-websocket-extensions: permessage-deflate
+2024-02-05 11:55:35,844 [DEBUG] websockets.client: < CF-Cache-Status: DYNAMIC
+2024-02-05 11:55:35,844 [DEBUG] websockets.client: < Set-Cookie: __cf_bm=Tfi3zX2_ubYqNvn3DCLevn83qdWYDLTjMqDFW0Wc62Y-1707123335-1-AWPv09RIuUfKRh5sCo1n4/iT9kpoNdYOUIOWq3lNnfHRc1+UkuNV8vPKnGSgGuAKwnja3/ZS8pTdgpn2EX3Cnec=; path=/; expires=Mon, 05-Feb-24 09:25:35 GMT; domain=.okx.com; HttpOnly; Secure; SameSite=None
+2024-02-05 11:55:35,845 [DEBUG] websockets.client: < Server: cloudflare
+2024-02-05 11:55:35,845 [DEBUG] websockets.client: < CF-RAY: 8509ef6bd9071642-WAW
+2024-02-05 11:55:35,845 [DEBUG] websockets.client: = connection is OPEN
+2024-02-05 11:55:35,845 [INFO] logging_config: Connected to OKX2024-02-05T11:55:35.845472
+2024-02-05 11:55:35,845 [DEBUG] websockets.client: > TEXT '{"op": "subscribe", "args": [{"channel": "mark-..."instId": "XRP-USDT"}]}' [176 bytes]
+2024-02-05 11:55:36,144 [DEBUG] websockets.client: < TEXT '{"event":"subscribe","arg":{"channel":"mark-pri..."},"connId":"a3c2c65a"}' [92 bytes]
+2024-02-05 11:55:36,144 [DEBUG] websockets.client: < TEXT '{"event":"subscribe","arg":{"channel":"mark-pri..."},"connId":"a3c2c65a"}' [92 bytes]
+2024-02-05 11:55:36,144 [DEBUG] websockets.client: < TEXT '{"event":"subscribe","arg":{"channel":"mark-pri..."},"connId":"a3c2c65a"}' [92 bytes]
+2024-02-05 11:55:36,145 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123335948"}]}' [143 bytes]
+2024-02-05 11:55:36,145 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123335809"}]}' [143 bytes]
+2024-02-05 11:55:36,145 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123335873"}]}' [142 bytes]
+2024-02-05 11:55:36,145 [INFO] logging_config: ******** event subscribe ********
+2024-02-05 11:55:36,145 [INFO] logging_config: ******** event subscribe ********
+2024-02-05 11:55:36,145 [INFO] logging_config: ******** event subscribe ********
+2024-02-05 11:55:36,166 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123336010"}]}' [143 bytes]
+2024-02-05 11:55:36,227 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123336074"}]}' [142 bytes]
+2024-02-05 11:55:36,315 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123336150"}]}' [143 bytes]
+2024-02-05 11:55:36,366 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123336210"}]}' [143 bytes]
+2024-02-05 11:55:36,431 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123336276"}]}' [142 bytes]
+2024-02-05 11:55:36,513 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123336350"}]}' [143 bytes]
+2024-02-05 11:55:36,567 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123336412"}]}' [143 bytes]
+2024-02-05 11:55:36,633 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123336479"}]}' [142 bytes]
+2024-02-05 11:55:36,710 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123336551"}]}' [143 bytes]
+2024-02-05 11:55:36,769 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123336614"}]}' [143 bytes]
+2024-02-05 11:55:36,839 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123336680"}]}' [142 bytes]
+2024-02-05 11:55:36,906 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123336751"}]}' [143 bytes]
+2024-02-05 11:55:36,991 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123336817"}]}' [143 bytes]
+2024-02-05 11:55:37,048 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123336881"}]}' [142 bytes]
+2024-02-05 11:55:37,120 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123336953"}]}' [143 bytes]
+2024-02-05 11:55:37,173 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123337016"}]}' [143 bytes]
+2024-02-05 11:55:37,240 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123337084"}]}' [142 bytes]
+2024-02-05 11:55:37,304 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123337154"}]}' [143 bytes]
+2024-02-05 11:55:37,380 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123337218"}]}' [143 bytes]
+2024-02-05 11:55:37,440 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123337284"}]}' [142 bytes]
+2024-02-05 11:55:37,511 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123337355"}]}' [143 bytes]
+2024-02-05 11:55:37,574 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123337420"}]}' [143 bytes]
+2024-02-05 11:55:37,643 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123337485"}]}' [142 bytes]
+2024-02-05 11:55:37,716 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123337555"}]}' [143 bytes]
+2024-02-05 11:55:37,778 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123337621"}]}' [143 bytes]
+2024-02-05 11:55:37,841 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123337687"}]}' [142 bytes]
+2024-02-05 11:55:37,916 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123337756"}]}' [143 bytes]
+2024-02-05 11:55:37,985 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123337822"}]}' [143 bytes]
+2024-02-05 11:55:38,051 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123337890"}]}' [142 bytes]
+2024-02-05 11:55:38,122 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123337958"}]}' [143 bytes]
+2024-02-05 11:55:41,131 [INFO] logging_config: 2024-02-05T11:55:41.131005 BTC-USDT = 43017.1
+2024-02-05 11:55:41,131 [INFO] logging_config: 2024-02-05T11:55:41.131005 ETH-USDT = 2323.89
+2024-02-05 11:55:41,131 [INFO] logging_config: 2024-02-05T11:55:41.131005 XRP-USDT = 0.5029
+2024-02-05 11:55:41,131 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123338023"}]}' [143 bytes]
+2024-02-05 11:55:41,131 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123338090"}]}' [142 bytes]
+2024-02-05 11:55:41,131 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123338161"}]}' [143 bytes]
+2024-02-05 11:55:46,144 [INFO] logging_config: 2024-02-05T11:55:46.144089 ETH-USDT = 2323.86
+2024-02-05 11:55:46,144 [INFO] logging_config: 2024-02-05T11:55:46.144089 XRP-USDT = 0.5029
+2024-02-05 11:55:46,144 [INFO] logging_config: 2024-02-05T11:55:46.144089 BTC-USDT = 43017.1
+2024-02-05 11:55:46,144 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123338224"}]}' [143 bytes]
+2024-02-05 11:55:46,144 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123338291"}]}' [142 bytes]
+2024-02-05 11:55:46,145 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123338360"}]}' [143 bytes]
+2024-02-05 11:55:51,157 [INFO] logging_config: 2024-02-05T11:55:51.157721 ETH-USDT = 2323.85
+2024-02-05 11:55:51,158 [INFO] logging_config: 2024-02-05T11:55:51.158745 XRP-USDT = 0.5029
+2024-02-05 11:55:51,158 [INFO] logging_config: 2024-02-05T11:55:51.158745 BTC-USDT = 43017.1
+2024-02-05 11:55:51,159 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123338426"}]}' [143 bytes]
+2024-02-05 11:55:51,159 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123338494"}]}' [142 bytes]
+2024-02-05 11:55:51,159 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123338561"}]}' [143 bytes]
+2024-02-05 11:55:56,172 [INFO] logging_config: 2024-02-05T11:55:56.172670 ETH-USDT = 2323.83
+2024-02-05 11:55:56,172 [INFO] logging_config: 2024-02-05T11:55:56.172670 XRP-USDT = 0.5029
+2024-02-05 11:55:56,173 [INFO] logging_config: 2024-02-05T11:55:56.173386 BTC-USDT = 43017.2
+2024-02-05 11:55:56,173 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123338627"}]}' [143 bytes]
+2024-02-05 11:55:56,173 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123338697"}]}' [142 bytes]
+2024-02-05 11:55:56,173 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123338762"}]}' [143 bytes]
+2024-02-05 11:56:01,187 [INFO] logging_config: 2024-02-05T11:56:01.187327 ETH-USDT = 2323.84
+2024-02-05 11:56:01,187 [INFO] logging_config: 2024-02-05T11:56:01.187327 XRP-USDT = 0.5029
+2024-02-05 11:56:01,187 [INFO] logging_config: 2024-02-05T11:56:01.187327 BTC-USDT = 43017.2
+2024-02-05 11:56:01,187 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123338827"}]}' [143 bytes]
+2024-02-05 11:56:01,187 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123338898"}]}' [142 bytes]
+2024-02-05 11:56:01,187 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123338963"}]}' [143 bytes]
+2024-02-05 11:56:05,851 [DEBUG] websockets.client: % sending keepalive ping
+2024-02-05 11:56:05,851 [DEBUG] websockets.client: > PING 16 99 6e 74 [binary, 4 bytes]
+2024-02-05 11:56:06,205 [INFO] logging_config: 2024-02-05T11:56:06.205679 ETH-USDT = 2323.89
+2024-02-05 11:56:06,205 [INFO] logging_config: 2024-02-05T11:56:06.205679 XRP-USDT = 0.5029
+2024-02-05 11:56:06,205 [INFO] logging_config: 2024-02-05T11:56:06.205679 BTC-USDT = 43017.2
+2024-02-05 11:56:06,205 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123339029"}]}' [143 bytes]
+2024-02-05 11:56:06,205 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123339101"}]}' [142 bytes]
+2024-02-05 11:56:06,205 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123339165"}]}' [143 bytes]
+2024-02-05 11:56:11,211 [INFO] logging_config: 2024-02-05T11:56:11.211521 ETH-USDT = 2323.99
+2024-02-05 11:56:11,212 [INFO] logging_config: 2024-02-05T11:56:11.212152 XRP-USDT = 0.5029
+2024-02-05 11:56:11,212 [INFO] logging_config: 2024-02-05T11:56:11.212152 BTC-USDT = 43017.2
+2024-02-05 11:56:11,212 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123339230"}]}' [143 bytes]
+2024-02-05 11:56:11,213 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123339302"}]}' [142 bytes]
+2024-02-05 11:56:11,213 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123339366"}]}' [143 bytes]
+2024-02-05 11:56:16,225 [INFO] logging_config: 2024-02-05T11:56:16.225814 ETH-USDT = 2324.01
+2024-02-05 11:56:16,225 [INFO] logging_config: 2024-02-05T11:56:16.225814 XRP-USDT = 0.5029
+2024-02-05 11:56:16,226 [INFO] logging_config: 2024-02-05T11:56:16.226538 BTC-USDT = 43017.0
+2024-02-05 11:56:16,226 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123339430"}]}' [143 bytes]
+2024-02-05 11:56:16,226 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123339504"}]}' [142 bytes]
+2024-02-05 11:56:16,226 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123339568"}]}' [143 bytes]
+2024-02-05 11:56:21,214 [INFO] logging_config: 2024-02-05T11:56:21.214604 ETH-USDT = 2324.08
+2024-02-05 11:56:21,214 [INFO] logging_config: 2024-02-05T11:56:21.214604 XRP-USDT = 0.5029
+2024-02-05 11:56:21,214 [INFO] logging_config: 2024-02-05T11:56:21.214604 BTC-USDT = 43017.0
+2024-02-05 11:56:21,215 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123339631"}]}' [143 bytes]
+2024-02-05 11:56:21,215 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123339705"}]}' [142 bytes]
+2024-02-05 11:56:21,215 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123339769"}]}' [143 bytes]
+2024-02-05 11:56:26,218 [INFO] logging_config: 2024-02-05T11:56:26.218846 ETH-USDT = 2324.07
+2024-02-05 11:56:26,218 [INFO] logging_config: 2024-02-05T11:56:26.218846 XRP-USDT = 0.5029
+2024-02-05 11:56:26,218 [INFO] logging_config: 2024-02-05T11:56:26.218846 BTC-USDT = 43017.0
+2024-02-05 11:56:26,218 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123339832"}]}' [143 bytes]
+2024-02-05 11:56:26,218 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123339909"}]}' [142 bytes]
+2024-02-05 11:56:26,218 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123339970"}]}' [143 bytes]
+2024-02-05 11:56:31,238 [INFO] logging_config: 2024-02-05T11:56:31.238336 ETH-USDT = 2324.09
+2024-02-05 11:56:31,238 [INFO] logging_config: 2024-02-05T11:56:31.238336 XRP-USDT = 0.5029
+2024-02-05 11:56:31,238 [INFO] logging_config: 2024-02-05T11:56:31.238336 BTC-USDT = 43017.0
+2024-02-05 11:56:31,238 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123340032"}]}' [143 bytes]
+2024-02-05 11:56:31,238 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123340112"}]}' [142 bytes]
+2024-02-05 11:56:31,238 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123340172"}]}' [143 bytes]
+2024-02-05 11:56:36,239 [INFO] logging_config: 2024-02-05T11:56:36.239635 ETH-USDT = 2324.09
+2024-02-05 11:56:36,239 [INFO] logging_config: 2024-02-05T11:56:36.239635 XRP-USDT = 0.5029
+2024-02-05 11:56:36,239 [INFO] logging_config: 2024-02-05T11:56:36.239635 BTC-USDT = 43017.0
+2024-02-05 11:56:36,239 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123340234"}]}' [143 bytes]
+2024-02-05 11:56:36,239 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123340314"}]}' [142 bytes]
+2024-02-05 11:56:36,239 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123340373"}]}' [143 bytes]
+2024-02-05 11:56:41,252 [INFO] logging_config: 2024-02-05T11:56:41.252013 ETH-USDT = 2324.32
+2024-02-05 11:56:41,252 [INFO] logging_config: 2024-02-05T11:56:41.252013 XRP-USDT = 0.5029
+2024-02-05 11:56:41,252 [INFO] logging_config: 2024-02-05T11:56:41.252013 BTC-USDT = 43017.2
+2024-02-05 11:56:41,252 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123340435"}]}' [143 bytes]
+2024-02-05 11:56:41,252 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123340515"}]}' [142 bytes]
+2024-02-05 11:56:41,252 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123340573"}]}' [143 bytes]
+2024-02-05 11:56:46,261 [INFO] logging_config: 2024-02-05T11:56:46.261783 ETH-USDT = 2324.55
+2024-02-05 11:56:46,261 [INFO] logging_config: 2024-02-05T11:56:46.261783 XRP-USDT = 0.5029
+2024-02-05 11:56:46,262 [INFO] logging_config: 2024-02-05T11:56:46.262775 BTC-USDT = 43020.0
+2024-02-05 11:56:46,262 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123340636"}]}' [143 bytes]
+2024-02-05 11:56:46,262 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123340719"}]}' [142 bytes]
+2024-02-05 11:56:46,262 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123340774"}]}' [143 bytes]
+2024-02-05 11:56:51,274 [INFO] logging_config: 2024-02-05T11:56:51.274761 ETH-USDT = 2324.66
+2024-02-05 11:56:51,274 [INFO] logging_config: 2024-02-05T11:56:51.274761 XRP-USDT = 0.5029
+2024-02-05 11:56:51,275 [INFO] logging_config: 2024-02-05T11:56:51.275764 BTC-USDT = 43020.0
+2024-02-05 11:56:51,275 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123340837"}]}' [143 bytes]
+2024-02-05 11:56:51,275 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123340923"}]}' [142 bytes]
+2024-02-05 11:56:51,276 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123340976"}]}' [143 bytes]
+2024-02-05 11:56:56,286 [INFO] logging_config: 2024-02-05T11:56:56.286463 ETH-USDT = 2324.66
+2024-02-05 11:56:56,286 [INFO] logging_config: 2024-02-05T11:56:56.286463 XRP-USDT = 0.5029
+2024-02-05 11:56:56,286 [INFO] logging_config: 2024-02-05T11:56:56.286463 BTC-USDT = 43020.6
+2024-02-05 11:56:56,286 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123341039"}]}' [143 bytes]
+2024-02-05 11:56:56,286 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123341125"}]}' [142 bytes]
+2024-02-05 11:56:56,287 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123341177"}]}' [143 bytes]
+2024-02-05 11:57:01,294 [INFO] logging_config: 2024-02-05T11:57:01.294083 ETH-USDT = 2324.73
+2024-02-05 11:57:01,294 [INFO] logging_config: 2024-02-05T11:57:01.294773 XRP-USDT = 0.5029
+2024-02-05 11:57:01,294 [INFO] logging_config: 2024-02-05T11:57:01.294773 BTC-USDT = 43020.7
+2024-02-05 11:57:01,295 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123341240"}]}' [143 bytes]
+2024-02-05 11:57:01,295 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123341326"}]}' [142 bytes]
+2024-02-05 11:57:01,296 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123341377"}]}' [143 bytes]
+2024-02-05 11:57:06,291 [INFO] logging_config: 2024-02-05T11:57:06.291204 ETH-USDT = 2324.72
+2024-02-05 11:57:06,291 [INFO] logging_config: 2024-02-05T11:57:06.291204 XRP-USDT = 0.5029
+2024-02-05 11:57:06,291 [INFO] logging_config: 2024-02-05T11:57:06.291204 BTC-USDT = 43020.7
+2024-02-05 11:57:06,292 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123341441"}]}' [143 bytes]
+2024-02-05 11:57:06,292 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123341531"}]}' [142 bytes]
+2024-02-05 11:57:06,292 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123341579"}]}' [143 bytes]
+2024-02-05 11:57:11,288 [INFO] logging_config: 2024-02-05T11:57:11.288656 ETH-USDT = 2324.73
+2024-02-05 11:57:11,288 [INFO] logging_config: 2024-02-05T11:57:11.288656 XRP-USDT = 0.5029
+2024-02-05 11:57:11,288 [INFO] logging_config: 2024-02-05T11:57:11.288656 BTC-USDT = 43021.5
+2024-02-05 11:57:11,288 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123341642"}]}' [143 bytes]
+2024-02-05 11:57:11,289 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123341731"}]}' [142 bytes]
+2024-02-05 11:57:11,289 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123341781"}]}' [143 bytes]
+2024-02-05 11:57:16,289 [INFO] logging_config: 2024-02-05T11:57:16.289230 ETH-USDT = 2324.73
+2024-02-05 11:57:16,289 [INFO] logging_config: 2024-02-05T11:57:16.289230 XRP-USDT = 0.5029
+2024-02-05 11:57:16,289 [INFO] logging_config: 2024-02-05T11:57:16.289230 BTC-USDT = 43021.5
+2024-02-05 11:57:16,290 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123341844"}]}' [143 bytes]
+2024-02-05 11:57:16,290 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123341932"}]}' [142 bytes]
+2024-02-05 11:57:16,290 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123341982"}]}' [143 bytes]
+2024-02-05 11:57:21,292 [INFO] logging_config: 2024-02-05T11:57:21.292664 ETH-USDT = 2324.71
+2024-02-05 11:57:21,293 [INFO] logging_config: 2024-02-05T11:57:21.293227 XRP-USDT = 0.5029
+2024-02-05 11:57:21,293 [INFO] logging_config: 2024-02-05T11:57:21.293227 BTC-USDT = 43021.5
+2024-02-05 11:57:21,293 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123342044"}]}' [143 bytes]
+2024-02-05 11:57:21,293 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123342133"}]}' [142 bytes]
+2024-02-05 11:57:21,293 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123342184"}]}' [143 bytes]
+2024-02-05 11:57:26,303 [INFO] logging_config: 2024-02-05T11:57:26.303652 ETH-USDT = 2324.71
+2024-02-05 11:57:26,304 [INFO] logging_config: 2024-02-05T11:57:26.304652 XRP-USDT = 0.5029
+2024-02-05 11:57:26,304 [INFO] logging_config: 2024-02-05T11:57:26.304652 BTC-USDT = 43022.9
+2024-02-05 11:57:26,304 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123342246"}]}' [143 bytes]
+2024-02-05 11:57:26,304 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123342334"}]}' [142 bytes]
+2024-02-05 11:57:26,304 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123342387"}]}' [143 bytes]
+2024-02-05 11:57:31,313 [INFO] logging_config: 2024-02-05T11:57:31.313906 ETH-USDT = 2324.68
+2024-02-05 11:57:31,313 [INFO] logging_config: 2024-02-05T11:57:31.313906 XRP-USDT = 0.5028
+2024-02-05 11:57:31,314 [INFO] logging_config: 2024-02-05T11:57:31.314907 BTC-USDT = 43023.4
+2024-02-05 11:57:31,314 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123342447"}]}' [143 bytes]
+2024-02-05 11:57:31,315 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123342535"}]}' [142 bytes]
+2024-02-05 11:57:31,315 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123342586"}]}' [143 bytes]
+2024-02-05 11:57:35,853 [DEBUG] websockets.client: ! timed out waiting for keepalive pong
+2024-02-05 11:57:35,853 [DEBUG] websockets.client: ! failing connection with code 1011
+2024-02-05 11:57:35,853 [DEBUG] websockets.client: = connection is CLOSING
+2024-02-05 11:57:35,853 [DEBUG] websockets.client: > CLOSE 1011 (internal error) keepalive ping timeout [24 bytes]
+2024-02-05 11:57:36,335 [INFO] logging_config: 2024-02-05T11:57:36.335775 ETH-USDT = 2324.69
+2024-02-05 11:57:36,336 [INFO] logging_config: 2024-02-05T11:57:36.336760 XRP-USDT = 0.5028
+2024-02-05 11:57:36,336 [INFO] logging_config: 2024-02-05T11:57:36.336760 BTC-USDT = 43023.4
+2024-02-05 11:57:41,352 [INFO] logging_config: 2024-02-05T11:57:41.352041 ETH-USDT = 2324.69
+2024-02-05 11:57:41,352 [INFO] logging_config: 2024-02-05T11:57:41.352041 XRP-USDT = 0.5028
+2024-02-05 11:57:41,352 [INFO] logging_config: 2024-02-05T11:57:41.352041 BTC-USDT = 43023.4
+2024-02-05 11:57:45,863 [DEBUG] websockets.client: ! timed out waiting for TCP close
+2024-02-05 11:57:45,863 [DEBUG] websockets.client: x closing TCP connection
+2024-02-05 11:57:46,360 [INFO] logging_config: 2024-02-05T11:57:46.360308 ETH-USDT = 2324.74
+2024-02-05 11:57:46,360 [INFO] logging_config: 2024-02-05T11:57:46.360308 XRP-USDT = 0.5028
+2024-02-05 11:57:46,360 [INFO] logging_config: 2024-02-05T11:57:46.360308 BTC-USDT = 43023.5
+2024-02-05 11:57:51,368 [INFO] logging_config: 2024-02-05T11:57:51.368693 ETH-USDT = 2324.75
+2024-02-05 11:57:51,368 [INFO] logging_config: 2024-02-05T11:57:51.368693 XRP-USDT = 0.5028
+2024-02-05 11:57:51,368 [INFO] logging_config: 2024-02-05T11:57:51.368693 BTC-USDT = 43023.5
+2024-02-05 11:57:55,874 [DEBUG] websockets.client: ! timed out waiting for TCP close
+2024-02-05 11:57:55,874 [DEBUG] websockets.client: x aborting TCP connection
+2024-02-05 11:57:55,874 [DEBUG] websockets.client: = connection is CLOSED
+2024-02-05 11:57:56,371 [INFO] logging_config: 2024-02-05T11:57:56.371511 ETH-USDT = 2324.75
+2024-02-05 11:57:56,371 [INFO] logging_config: 2024-02-05T11:57:56.371511 XRP-USDT = 0.5029
+2024-02-05 11:57:56,371 [INFO] logging_config: 2024-02-05T11:57:56.371511 BTC-USDT = 43023.7
+2024-02-05 11:58:01,379 [INFO] logging_config: 2024-02-05T11:58:01.379794 ETH-USDT = 2324.74
+2024-02-05 11:58:01,379 [INFO] logging_config: 2024-02-05T11:58:01.379794 XRP-USDT = 0.5029
+2024-02-05 11:58:01,379 [INFO] logging_config: 2024-02-05T11:58:01.379794 BTC-USDT = 43023.7
+2024-02-05 11:58:06,384 [INFO] logging_config: 2024-02-05T11:58:06.384822 ETH-USDT = 2324.74
+2024-02-05 11:58:06,385 [INFO] logging_config: 2024-02-05T11:58:06.385824 XRP-USDT = 0.5029
+2024-02-05 11:58:06,385 [INFO] logging_config: 2024-02-05T11:58:06.385824 BTC-USDT = 43023.8
+2024-02-05 11:58:11,394 [INFO] logging_config: 2024-02-05T11:58:11.394879 ETH-USDT = 2324.74
+2024-02-05 11:58:11,394 [INFO] logging_config: 2024-02-05T11:58:11.394879 XRP-USDT = 0.5029
+2024-02-05 11:58:11,394 [INFO] logging_config: 2024-02-05T11:58:11.394879 BTC-USDT = 43023.8
+2024-02-05 11:58:16,400 [INFO] logging_config: 2024-02-05T11:58:16.400423 ETH-USDT = 2324.77
+2024-02-05 11:58:16,400 [INFO] logging_config: 2024-02-05T11:58:16.400423 XRP-USDT = 0.5029
+2024-02-05 11:58:16,401 [INFO] logging_config: 2024-02-05T11:58:16.401042 BTC-USDT = 43023.8
+2024-02-05 11:58:21,413 [INFO] logging_config: 2024-02-05T11:58:21.413934 ETH-USDT = 2324.77
+2024-02-05 11:58:21,413 [INFO] logging_config: 2024-02-05T11:58:21.413934 XRP-USDT = 0.5029
+2024-02-05 11:58:21,414 [INFO] logging_config: 2024-02-05T11:58:21.414939 BTC-USDT = 43023.8
+2024-02-05 11:58:26,427 [INFO] logging_config: 2024-02-05T11:58:26.427538 ETH-USDT = 2324.74
+2024-02-05 11:58:26,428 [INFO] logging_config: 2024-02-05T11:58:26.428538 XRP-USDT = 0.5029
+2024-02-05 11:58:26,429 [ERROR] logging_config: Connection to OKX closed: sent 1011 (internal error) keepalive ping timeout; no close frame received
+2024-02-05 11:58:31,449 [DEBUG] websockets.client: = connection is CONNECTING
+2024-02-05 11:58:31,499 [DEBUG] websockets.client: > GET /ws/v5/public HTTP/1.1
+2024-02-05 11:58:31,499 [DEBUG] websockets.client: > Host: ws.okx.com:8443
+2024-02-05 11:58:31,499 [DEBUG] websockets.client: > Upgrade: websocket
+2024-02-05 11:58:31,499 [DEBUG] websockets.client: > Connection: Upgrade
+2024-02-05 11:58:31,499 [DEBUG] websockets.client: > Sec-WebSocket-Key: MEaZcd5aQG1CKSEsfyFidg==
+2024-02-05 11:58:31,499 [DEBUG] websockets.client: > Sec-WebSocket-Version: 13
+2024-02-05 11:58:31,499 [DEBUG] websockets.client: > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2024-02-05 11:58:31,499 [DEBUG] websockets.client: > User-Agent: Python/3.11 websockets/12.0
+2024-02-05 11:58:32,408 [DEBUG] websockets.client: < HTTP/1.1 101 Switching Protocols
+2024-02-05 11:58:32,408 [DEBUG] websockets.client: < Date: Mon, 05 Feb 2024 08:58:32 GMT
+2024-02-05 11:58:32,408 [DEBUG] websockets.client: < Connection: upgrade
+2024-02-05 11:58:32,408 [DEBUG] websockets.client: < upgrade: websocket
+2024-02-05 11:58:32,409 [DEBUG] websockets.client: < sec-websocket-accept: xX/UuUBGhc/EYN4dWPNRT9r9iKg=
+2024-02-05 11:58:32,409 [DEBUG] websockets.client: < sec-websocket-extensions: permessage-deflate
+2024-02-05 11:58:32,409 [DEBUG] websockets.client: < CF-Cache-Status: DYNAMIC
+2024-02-05 11:58:32,409 [DEBUG] websockets.client: < Set-Cookie: __cf_bm=8UNdFVgBmeDcjs.HedifmtClo7x7POy3nO5xyGgp9zY-1707123512-1-AYzUttw8LJUtZ+qmmeApENcFlko5FXLi1fnbgmfQBvXvRkh+gRBEV2aVaOnKZ75ZRjbgWRei54i1TTvzwXdkrZw=; path=/; expires=Mon, 05-Feb-24 09:28:32 GMT; domain=.okx.com; HttpOnly; Secure; SameSite=None
+2024-02-05 11:58:32,409 [DEBUG] websockets.client: < Server: cloudflare
+2024-02-05 11:58:32,409 [DEBUG] websockets.client: < CF-RAY: 8509f3bb6b35bfb7-WAW
+2024-02-05 11:58:32,409 [DEBUG] websockets.client: = connection is OPEN
+2024-02-05 11:58:32,409 [INFO] logging_config: Connected to OKX2024-02-05T11:58:32.409570
+2024-02-05 11:58:32,410 [DEBUG] websockets.client: > TEXT '{"op": "subscribe", "args": [{"channel": "mark-..."instId": "XRP-USDT"}]}' [176 bytes]
+2024-02-05 11:58:32,701 [DEBUG] websockets.client: < TEXT '{"event":"subscribe","arg":{"channel":"mark-pri..."},"connId":"5c331926"}' [92 bytes]
+2024-02-05 11:58:32,701 [DEBUG] websockets.client: < TEXT '{"event":"subscribe","arg":{"channel":"mark-pri..."},"connId":"5c331926"}' [92 bytes]
+2024-02-05 11:58:32,701 [DEBUG] websockets.client: < TEXT '{"event":"subscribe","arg":{"channel":"mark-pri..."},"connId":"5c331926"}' [92 bytes]
+2024-02-05 11:58:32,701 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123512493"}]}' [143 bytes]
+2024-02-05 11:58:32,701 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123512537"}]}' [143 bytes]
+2024-02-05 11:58:32,701 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123512441"}]}' [142 bytes]
+2024-02-05 11:58:32,702 [INFO] logging_config: ******** event subscribe ********
+2024-02-05 11:58:32,702 [INFO] logging_config: ******** event subscribe ********
+2024-02-05 11:58:32,702 [INFO] logging_config: ******** event subscribe ********
+2024-02-05 11:58:32,807 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123512643"}]}' [142 bytes]
+2024-02-05 11:58:32,862 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123512694"}]}' [143 bytes]
+2024-02-05 11:58:32,901 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123512738"}]}' [143 bytes]
+2024-02-05 11:58:33,003 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123512844"}]}' [142 bytes]
+2024-02-05 11:58:33,068 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123512896"}]}' [143 bytes]
+2024-02-05 11:58:33,100 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123512941"}]}' [143 bytes]
+2024-02-05 11:58:33,234 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123513047"}]}' [142 bytes]
+2024-02-05 11:58:33,253 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123513098"}]}' [143 bytes]
+2024-02-05 11:58:33,305 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123513138"}]}' [143 bytes]
+2024-02-05 11:58:33,416 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123513250"}]}' [142 bytes]
+2024-02-05 11:58:33,477 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123513299"}]}' [143 bytes]
+2024-02-05 11:58:33,505 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123513342"}]}' [143 bytes]
+2024-02-05 11:58:33,619 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123513453"}]}' [142 bytes]
+2024-02-05 11:58:33,685 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123513500"}]}' [143 bytes]
+2024-02-05 11:58:33,706 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123513543"}]}' [143 bytes]
+2024-02-05 11:58:33,816 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123513654"}]}' [142 bytes]
+2024-02-05 11:58:33,863 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123513701"}]}' [143 bytes]
+2024-02-05 11:58:33,905 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123513746"}]}' [143 bytes]
+2024-02-05 11:58:34,019 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123513856"}]}' [142 bytes]
+2024-02-05 11:58:34,069 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123513903"}]}' [143 bytes]
+2024-02-05 11:58:34,108 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123513947"}]}' [143 bytes]
+2024-02-05 11:58:34,228 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123514056"}]}' [142 bytes]
+2024-02-05 11:58:34,266 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123514106"}]}' [143 bytes]
+2024-02-05 11:58:34,305 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123514147"}]}' [143 bytes]
+2024-02-05 11:58:34,420 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123514257"}]}' [142 bytes]
+2024-02-05 11:58:34,471 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123514305"}]}' [143 bytes]
+2024-02-05 11:58:34,510 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123514348"}]}' [143 bytes]
+2024-02-05 11:58:34,620 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123514458"}]}' [142 bytes]
+2024-02-05 11:58:34,675 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123514507"}]}' [143 bytes]
+2024-02-05 11:58:34,708 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123514548"}]}' [143 bytes]
+2024-02-05 11:58:37,702 [INFO] logging_config: 2024-02-05T11:58:37.702710 BTC-USDT = 43026.8
+2024-02-05 11:58:37,702 [INFO] logging_config: 2024-02-05T11:58:37.702710 ETH-USDT = 2322.25
+2024-02-05 11:58:37,702 [INFO] logging_config: 2024-02-05T11:58:37.702710 XRP-USDT = 0.5032
+2024-02-05 11:58:37,702 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123514659"}]}' [142 bytes]
+2024-02-05 11:58:37,703 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123514709"}]}' [143 bytes]
+2024-02-05 11:58:37,703 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123514751"}]}' [143 bytes]
+2024-02-05 11:58:42,703 [INFO] logging_config: 2024-02-05T11:58:42.703698 XRP-USDT = 0.5032
+2024-02-05 11:58:42,704 [INFO] logging_config: 2024-02-05T11:58:42.704759 BTC-USDT = 43026.8
+2024-02-05 11:58:42,704 [INFO] logging_config: 2024-02-05T11:58:42.704759 ETH-USDT = 2322.24
+2024-02-05 11:58:42,705 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123514861"}]}' [142 bytes]
+2024-02-05 11:58:42,706 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123514911"}]}' [143 bytes]
+2024-02-05 11:58:42,706 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123514951"}]}' [143 bytes]
+2024-02-05 11:58:47,717 [INFO] logging_config: 2024-02-05T11:58:47.717859 XRP-USDT = 0.5032
+2024-02-05 11:58:47,717 [INFO] logging_config: 2024-02-05T11:58:47.717859 BTC-USDT = 43026.8
+2024-02-05 11:58:47,717 [INFO] logging_config: 2024-02-05T11:58:47.717859 ETH-USDT = 2322.24
+2024-02-05 11:58:47,717 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123515063"}]}' [142 bytes]
+2024-02-05 11:58:47,717 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123515113"}]}' [143 bytes]
+2024-02-05 11:58:47,717 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123515152"}]}' [143 bytes]
+2024-02-05 11:58:52,710 [INFO] logging_config: 2024-02-05T11:58:52.710314 XRP-USDT = 0.5032
+2024-02-05 11:58:52,710 [INFO] logging_config: 2024-02-05T11:58:52.710314 BTC-USDT = 43026.8
+2024-02-05 11:58:52,710 [INFO] logging_config: 2024-02-05T11:58:52.710314 ETH-USDT = 2322.24
+2024-02-05 11:58:52,710 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123515266"}]}' [142 bytes]
+2024-02-05 11:58:52,710 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123515314"}]}' [143 bytes]
+2024-02-05 11:58:52,710 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123515353"}]}' [143 bytes]
+2024-02-05 11:58:57,717 [INFO] logging_config: 2024-02-05T11:58:57.717628 XRP-USDT = 0.5032
+2024-02-05 11:58:57,718 [INFO] logging_config: 2024-02-05T11:58:57.718652 BTC-USDT = 43026.8
+2024-02-05 11:58:57,718 [INFO] logging_config: 2024-02-05T11:58:57.718652 ETH-USDT = 2322.24
+2024-02-05 11:58:57,719 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123515467"}]}' [142 bytes]
+2024-02-05 11:58:57,719 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123515515"}]}' [143 bytes]
+2024-02-05 11:58:57,720 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123515554"}]}' [143 bytes]
+2024-02-05 11:59:02,416 [DEBUG] websockets.client: % sending keepalive ping
+2024-02-05 11:59:02,416 [DEBUG] websockets.client: > PING 23 b9 45 f0 [binary, 4 bytes]
+2024-02-05 11:59:02,707 [INFO] logging_config: 2024-02-05T11:59:02.707689 XRP-USDT = 0.5032
+2024-02-05 11:59:02,707 [INFO] logging_config: 2024-02-05T11:59:02.707689 BTC-USDT = 43026.8
+2024-02-05 11:59:02,707 [INFO] logging_config: 2024-02-05T11:59:02.707689 ETH-USDT = 2322.25
+2024-02-05 11:59:02,708 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123515669"}]}' [142 bytes]
+2024-02-05 11:59:02,708 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123515715"}]}' [143 bytes]
+2024-02-05 11:59:02,708 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123515755"}]}' [143 bytes]
+2024-02-05 11:59:07,730 [INFO] logging_config: 2024-02-05T11:59:07.730034 XRP-USDT = 0.5032
+2024-02-05 11:59:07,730 [INFO] logging_config: 2024-02-05T11:59:07.730034 BTC-USDT = 43026.8
+2024-02-05 11:59:07,730 [INFO] logging_config: 2024-02-05T11:59:07.730034 ETH-USDT = 2322.25
+2024-02-05 11:59:07,730 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123515871"}]}' [142 bytes]
+2024-02-05 11:59:07,730 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123515916"}]}' [143 bytes]
+2024-02-05 11:59:07,730 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123515955"}]}' [143 bytes]
+2024-02-05 11:59:12,729 [INFO] logging_config: 2024-02-05T11:59:12.729119 XRP-USDT = 0.5032
+2024-02-05 11:59:12,729 [INFO] logging_config: 2024-02-05T11:59:12.729119 BTC-USDT = 43026.8
+2024-02-05 11:59:12,729 [INFO] logging_config: 2024-02-05T11:59:12.729119 ETH-USDT = 2322.25
+2024-02-05 11:59:12,729 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123516073"}]}' [142 bytes]
+2024-02-05 11:59:12,729 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123516117"}]}' [143 bytes]
+2024-02-05 11:59:12,729 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123516156"}]}' [143 bytes]
+2024-02-05 11:59:17,703 [INFO] logging_config: 2024-02-05T11:59:17.703398 XRP-USDT = 0.5032
+2024-02-05 11:59:17,703 [INFO] logging_config: 2024-02-05T11:59:17.703398 BTC-USDT = 43026.8
+2024-02-05 11:59:17,703 [INFO] logging_config: 2024-02-05T11:59:17.703398 ETH-USDT = 2322.25
+2024-02-05 11:59:17,703 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123516274"}]}' [142 bytes]
+2024-02-05 11:59:17,703 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123516318"}]}' [143 bytes]
+2024-02-05 11:59:17,703 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123516357"}]}' [143 bytes]
+2024-02-05 11:59:22,711 [INFO] logging_config: 2024-02-05T11:59:22.711170 XRP-USDT = 0.5032
+2024-02-05 11:59:22,711 [INFO] logging_config: 2024-02-05T11:59:22.711170 BTC-USDT = 43026.8
+2024-02-05 11:59:22,711 [INFO] logging_config: 2024-02-05T11:59:22.711170 ETH-USDT = 2322.25
+2024-02-05 11:59:22,711 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123516475"}]}' [142 bytes]
+2024-02-05 11:59:22,711 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123516519"}]}' [143 bytes]
+2024-02-05 11:59:22,711 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123516561"}]}' [143 bytes]
+2024-02-05 11:59:27,703 [INFO] logging_config: 2024-02-05T11:59:27.703728 XRP-USDT = 0.5032
+2024-02-05 11:59:27,703 [INFO] logging_config: 2024-02-05T11:59:27.703728 BTC-USDT = 43026.7
+2024-02-05 11:59:27,703 [INFO] logging_config: 2024-02-05T11:59:27.703728 ETH-USDT = 2322.22
+2024-02-05 11:59:27,703 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123516675"}]}' [142 bytes]
+2024-02-05 11:59:27,704 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123516719"}]}' [143 bytes]
+2024-02-05 11:59:27,704 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123516764"}]}' [143 bytes]
+2024-02-05 11:59:32,725 [INFO] logging_config: 2024-02-05T11:59:32.725788 XRP-USDT = 0.5032
+2024-02-05 11:59:32,725 [INFO] logging_config: 2024-02-05T11:59:32.725788 BTC-USDT = 43026.7
+2024-02-05 11:59:32,725 [INFO] logging_config: 2024-02-05T11:59:32.725788 ETH-USDT = 2322.22
+2024-02-05 11:59:32,725 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123516878"}]}' [142 bytes]
+2024-02-05 11:59:32,726 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123516920"}]}' [143 bytes]
+2024-02-05 11:59:32,726 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123516965"}]}' [143 bytes]
+2024-02-05 11:59:37,733 [INFO] logging_config: 2024-02-05T11:59:37.733209 XRP-USDT = 0.5032
+2024-02-05 11:59:37,733 [INFO] logging_config: 2024-02-05T11:59:37.733209 BTC-USDT = 43026.7
+2024-02-05 11:59:37,733 [INFO] logging_config: 2024-02-05T11:59:37.733209 ETH-USDT = 2322.22
+2024-02-05 11:59:37,733 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123517079"}]}' [142 bytes]
+2024-02-05 11:59:37,733 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123517120"}]}' [143 bytes]
+2024-02-05 11:59:37,733 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123517165"}]}' [143 bytes]
+2024-02-05 11:59:42,744 [INFO] logging_config: 2024-02-05T11:59:42.744066 XRP-USDT = 0.5032
+2024-02-05 11:59:42,744 [INFO] logging_config: 2024-02-05T11:59:42.744066 BTC-USDT = 43026.7
+2024-02-05 11:59:42,744 [INFO] logging_config: 2024-02-05T11:59:42.744066 ETH-USDT = 2322.22
+2024-02-05 11:59:42,744 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123517281"}]}' [142 bytes]
+2024-02-05 11:59:42,744 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123517321"}]}' [143 bytes]
+2024-02-05 11:59:42,744 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123517366"}]}' [143 bytes]
+2024-02-05 11:59:47,752 [INFO] logging_config: 2024-02-05T11:59:47.752424 XRP-USDT = 0.5032
+2024-02-05 11:59:47,752 [INFO] logging_config: 2024-02-05T11:59:47.752424 BTC-USDT = 43026.7
+2024-02-05 11:59:47,752 [INFO] logging_config: 2024-02-05T11:59:47.752926 ETH-USDT = 2322.22
+2024-02-05 11:59:47,752 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123517482"}]}' [142 bytes]
+2024-02-05 11:59:47,752 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123517521"}]}' [143 bytes]
+2024-02-05 11:59:47,752 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123517568"}]}' [143 bytes]
+2024-02-05 11:59:52,765 [INFO] logging_config: 2024-02-05T11:59:52.765748 XRP-USDT = 0.5032
+2024-02-05 11:59:52,766 [INFO] logging_config: 2024-02-05T11:59:52.766420 BTC-USDT = 43026.7
+2024-02-05 11:59:52,766 [INFO] logging_config: 2024-02-05T11:59:52.766420 ETH-USDT = 2322.22
+2024-02-05 11:59:52,766 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123517684"}]}' [142 bytes]
+2024-02-05 11:59:52,767 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123517722"}]}' [143 bytes]
+2024-02-05 11:59:52,767 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123517768"}]}' [143 bytes]
+2024-02-05 11:59:57,760 [INFO] logging_config: 2024-02-05T11:59:57.760061 XRP-USDT = 0.5032
+2024-02-05 11:59:57,760 [INFO] logging_config: 2024-02-05T11:59:57.760061 BTC-USDT = 43026.7
+2024-02-05 11:59:57,760 [INFO] logging_config: 2024-02-05T11:59:57.760061 ETH-USDT = 2322.22
+2024-02-05 11:59:57,760 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123517888"}]}' [142 bytes]
+2024-02-05 11:59:57,760 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123517922"}]}' [143 bytes]
+2024-02-05 11:59:57,760 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123517970"}]}' [143 bytes]
+2024-02-05 12:00:02,753 [INFO] logging_config: 2024-02-05T12:00:02.753536 XRP-USDT = 0.5032
+2024-02-05 12:00:02,754 [INFO] logging_config: 2024-02-05T12:00:02.754134 BTC-USDT = 43026.7
+2024-02-05 12:00:02,754 [INFO] logging_config: 2024-02-05T12:00:02.754134 ETH-USDT = 2322.22
+2024-02-05 12:00:02,754 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123518089"}]}' [142 bytes]
+2024-02-05 12:00:02,754 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123518124"}]}' [143 bytes]
+2024-02-05 12:00:02,754 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123518174"}]}' [143 bytes]
+2024-02-05 12:00:07,761 [INFO] logging_config: 2024-02-05T12:00:07.761531 XRP-USDT = 0.5032
+2024-02-05 12:00:07,761 [INFO] logging_config: 2024-02-05T12:00:07.761531 BTC-USDT = 43026.7
+2024-02-05 12:00:07,761 [INFO] logging_config: 2024-02-05T12:00:07.761531 ETH-USDT = 2322.22
+2024-02-05 12:00:07,762 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123518292"}]}' [142 bytes]
+2024-02-05 12:00:07,762 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123518326"}]}' [143 bytes]
+2024-02-05 12:00:07,762 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123518375"}]}' [143 bytes]
+2024-02-05 12:00:12,749 [INFO] logging_config: 2024-02-05T12:00:12.749803 XRP-USDT = 0.5032
+2024-02-05 12:00:12,749 [INFO] logging_config: 2024-02-05T12:00:12.749803 BTC-USDT = 43026.7
+2024-02-05 12:00:12,749 [INFO] logging_config: 2024-02-05T12:00:12.749803 ETH-USDT = 2322.22
+2024-02-05 12:00:12,749 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123518492"}]}' [142 bytes]
+2024-02-05 12:00:12,750 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123518527"}]}' [143 bytes]
+2024-02-05 12:00:12,750 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123518576"}]}' [143 bytes]
+2024-02-05 12:00:17,761 [INFO] logging_config: 2024-02-05T12:00:17.761198 XRP-USDT = 0.5032
+2024-02-05 12:00:17,761 [INFO] logging_config: 2024-02-05T12:00:17.761198 BTC-USDT = 43026.7
+2024-02-05 12:00:17,761 [INFO] logging_config: 2024-02-05T12:00:17.761198 ETH-USDT = 2322.22
+2024-02-05 12:00:17,761 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123518696"}]}' [142 bytes]
+2024-02-05 12:00:17,762 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123518728"}]}' [143 bytes]
+2024-02-05 12:00:17,762 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123518778"}]}' [143 bytes]
+2024-02-05 12:00:22,769 [INFO] logging_config: 2024-02-05T12:00:22.769091 XRP-USDT = 0.5032
+2024-02-05 12:00:22,769 [INFO] logging_config: 2024-02-05T12:00:22.769597 BTC-USDT = 43026.7
+2024-02-05 12:00:22,769 [INFO] logging_config: 2024-02-05T12:00:22.769597 ETH-USDT = 2322.22
+2024-02-05 12:00:22,769 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123518900"}]}' [142 bytes]
+2024-02-05 12:00:22,769 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123518928"}]}' [143 bytes]
+2024-02-05 12:00:22,769 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123518979"}]}' [143 bytes]
+2024-02-05 12:00:27,787 [INFO] logging_config: 2024-02-05T12:00:27.787102 XRP-USDT = 0.5032
+2024-02-05 12:00:27,787 [INFO] logging_config: 2024-02-05T12:00:27.787531 BTC-USDT = 43026.7
+2024-02-05 12:00:27,787 [INFO] logging_config: 2024-02-05T12:00:27.787531 ETH-USDT = 2322.22
+2024-02-05 12:00:27,787 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123519102"}]}' [142 bytes]
+2024-02-05 12:00:27,787 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123519128"}]}' [143 bytes]
+2024-02-05 12:00:27,787 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123519182"}]}' [143 bytes]
+2024-02-05 12:00:32,420 [DEBUG] websockets.client: ! timed out waiting for keepalive pong
+2024-02-05 12:00:32,420 [DEBUG] websockets.client: ! failing connection with code 1011
+2024-02-05 12:00:32,420 [DEBUG] websockets.client: = connection is CLOSING
+2024-02-05 12:00:32,420 [DEBUG] websockets.client: > CLOSE 1011 (internal error) keepalive ping timeout [24 bytes]
+2024-02-05 12:00:32,796 [INFO] logging_config: 2024-02-05T12:00:32.796217 XRP-USDT = 0.5032
+2024-02-05 12:00:32,796 [INFO] logging_config: 2024-02-05T12:00:32.796217 BTC-USDT = 43026.7
+2024-02-05 12:00:32,796 [INFO] logging_config: 2024-02-05T12:00:32.796217 ETH-USDT = 2322.22
+2024-02-05 12:00:37,798 [INFO] logging_config: 2024-02-05T12:00:37.798972 XRP-USDT = 0.5032
+2024-02-05 12:00:37,798 [INFO] logging_config: 2024-02-05T12:00:37.798972 BTC-USDT = 43026.7
+2024-02-05 12:00:37,798 [INFO] logging_config: 2024-02-05T12:00:37.798972 ETH-USDT = 2322.23
+2024-02-05 12:00:42,412 [DEBUG] websockets.client: ! timed out waiting for TCP close
+2024-02-05 12:00:42,412 [DEBUG] websockets.client: x closing TCP connection
+2024-02-05 12:00:42,805 [INFO] logging_config: 2024-02-05T12:00:42.805186 XRP-USDT = 0.5032
+2024-02-05 12:00:42,805 [INFO] logging_config: 2024-02-05T12:00:42.805186 BTC-USDT = 43026.7
+2024-02-05 12:00:42,805 [INFO] logging_config: 2024-02-05T12:00:42.805186 ETH-USDT = 2322.23
+2024-02-05 12:00:47,807 [INFO] logging_config: 2024-02-05T12:00:47.807642 XRP-USDT = 0.5032
+2024-02-05 12:00:47,807 [INFO] logging_config: 2024-02-05T12:00:47.807642 BTC-USDT = 43026.7
+2024-02-05 12:00:47,807 [INFO] logging_config: 2024-02-05T12:00:47.807642 ETH-USDT = 2322.2
+2024-02-05 12:00:52,423 [DEBUG] websockets.client: ! timed out waiting for TCP close
+2024-02-05 12:00:52,423 [DEBUG] websockets.client: x aborting TCP connection
+2024-02-05 12:00:52,424 [DEBUG] websockets.client: = connection is CLOSED
+2024-02-05 12:00:52,813 [INFO] logging_config: 2024-02-05T12:00:52.813972 XRP-USDT = 0.5032
+2024-02-05 12:00:52,813 [INFO] logging_config: 2024-02-05T12:00:52.813972 BTC-USDT = 43026.9
+2024-02-05 12:00:52,813 [INFO] logging_config: 2024-02-05T12:00:52.813972 ETH-USDT = 2322.22
+2024-02-05 12:00:57,819 [INFO] logging_config: 2024-02-05T12:00:57.819207 XRP-USDT = 0.5032
+2024-02-05 12:00:57,820 [INFO] logging_config: 2024-02-05T12:00:57.820213 BTC-USDT = 43027.2
+2024-02-05 12:00:57,820 [INFO] logging_config: 2024-02-05T12:00:57.820213 ETH-USDT = 2322.23
+2024-02-05 12:01:02,821 [INFO] logging_config: 2024-02-05T12:01:02.821793 XRP-USDT = 0.5032
+2024-02-05 12:01:02,821 [INFO] logging_config: 2024-02-05T12:01:02.821793 BTC-USDT = 43030.3
+2024-02-05 12:01:02,821 [INFO] logging_config: 2024-02-05T12:01:02.821793 ETH-USDT = 2322.32
+2024-02-05 12:01:07,824 [INFO] logging_config: 2024-02-05T12:01:07.824479 XRP-USDT = 0.5032
+2024-02-05 12:01:07,825 [INFO] logging_config: 2024-02-05T12:01:07.825486 BTC-USDT = 43030.3
+2024-02-05 12:01:07,825 [INFO] logging_config: 2024-02-05T12:01:07.825486 ETH-USDT = 2322.33
+2024-02-05 12:01:12,826 [INFO] logging_config: 2024-02-05T12:01:12.826944 XRP-USDT = 0.5032
+2024-02-05 12:01:12,826 [INFO] logging_config: 2024-02-05T12:01:12.826944 BTC-USDT = 43032.4
+2024-02-05 12:01:12,826 [INFO] logging_config: 2024-02-05T12:01:12.826944 ETH-USDT = 2322.51
+2024-02-05 12:01:17,829 [INFO] logging_config: 2024-02-05T12:01:17.829587 XRP-USDT = 0.5032
+2024-02-05 12:01:17,830 [INFO] logging_config: 2024-02-05T12:01:17.830554 BTC-USDT = 43032.7
+2024-02-05 12:01:17,830 [INFO] logging_config: 2024-02-05T12:01:17.830554 ETH-USDT = 2322.51
+2024-02-05 12:01:22,842 [INFO] logging_config: 2024-02-05T12:01:22.842538 XRP-USDT = 0.5032
+2024-02-05 12:01:22,842 [INFO] logging_config: 2024-02-05T12:01:22.842538 BTC-USDT = 43033.0
+2024-02-05 12:01:22,842 [ERROR] logging_config: Connection to OKX closed: sent 1011 (internal error) keepalive ping timeout; no close frame received
+2024-02-05 12:01:27,933 [DEBUG] websockets.client: = connection is CONNECTING
+2024-02-05 12:01:27,993 [DEBUG] websockets.client: > GET /ws/v5/public HTTP/1.1
+2024-02-05 12:01:27,993 [DEBUG] websockets.client: > Host: ws.okx.com:8443
+2024-02-05 12:01:27,993 [DEBUG] websockets.client: > Upgrade: websocket
+2024-02-05 12:01:27,993 [DEBUG] websockets.client: > Connection: Upgrade
+2024-02-05 12:01:27,993 [DEBUG] websockets.client: > Sec-WebSocket-Key: C5QGJmHi38DeQV0kIx6QqQ==
+2024-02-05 12:01:27,993 [DEBUG] websockets.client: > Sec-WebSocket-Version: 13
+2024-02-05 12:01:27,993 [DEBUG] websockets.client: > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2024-02-05 12:01:27,993 [DEBUG] websockets.client: > User-Agent: Python/3.11 websockets/12.0
+2024-02-05 12:01:28,904 [DEBUG] websockets.client: < HTTP/1.1 101 Switching Protocols
+2024-02-05 12:01:28,904 [DEBUG] websockets.client: < Date: Mon, 05 Feb 2024 09:01:28 GMT
+2024-02-05 12:01:28,904 [DEBUG] websockets.client: < Connection: upgrade
+2024-02-05 12:01:28,904 [DEBUG] websockets.client: < upgrade: websocket
+2024-02-05 12:01:28,904 [DEBUG] websockets.client: < sec-websocket-accept: LFNaFSJ6qEVgrsKp/jSRRoqCRQI=
+2024-02-05 12:01:28,904 [DEBUG] websockets.client: < sec-websocket-extensions: permessage-deflate
+2024-02-05 12:01:28,904 [DEBUG] websockets.client: < CF-Cache-Status: DYNAMIC
+2024-02-05 12:01:28,905 [DEBUG] websockets.client: < Set-Cookie: __cf_bm=Rz4Z.X_gitkq0ssxpBj_6p5.ax6LXSgwCiOo7ftZLoQ-1707123688-1-AYQm9aamrJQuD9egImKwRJpw38bgJB4alwUZKU64lbuxOYOHShONCwyhd9bHky3M+1JugNYWibrkZMBeXevNXlQ=; path=/; expires=Mon, 05-Feb-24 09:31:28 GMT; domain=.okx.com; HttpOnly; Secure; SameSite=None
+2024-02-05 12:01:28,905 [DEBUG] websockets.client: < Server: cloudflare
+2024-02-05 12:01:28,905 [DEBUG] websockets.client: < CF-RAY: 8509f80a8c9c1673-WAW
+2024-02-05 12:01:28,905 [DEBUG] websockets.client: = connection is OPEN
+2024-02-05 12:01:28,905 [INFO] logging_config: Connected to OKX2024-02-05T12:01:28.905049
+2024-02-05 12:01:28,905 [DEBUG] websockets.client: > TEXT '{"op": "subscribe", "args": [{"channel": "mark-..."instId": "XRP-USDT"}]}' [176 bytes]
+2024-02-05 12:01:29,203 [DEBUG] websockets.client: < TEXT '{"event":"subscribe","arg":{"channel":"mark-pri..."},"connId":"664fdb3b"}' [92 bytes]
+2024-02-05 12:01:29,203 [DEBUG] websockets.client: < TEXT '{"event":"subscribe","arg":{"channel":"mark-pri..."},"connId":"664fdb3b"}' [92 bytes]
+2024-02-05 12:01:29,203 [DEBUG] websockets.client: < TEXT '{"event":"subscribe","arg":{"channel":"mark-pri..."},"connId":"664fdb3b"}' [92 bytes]
+2024-02-05 12:01:29,203 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123689029"}]}' [143 bytes]
+2024-02-05 12:01:29,203 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123688896"}]}' [143 bytes]
+2024-02-05 12:01:29,203 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123689034"}]}' [142 bytes]
+2024-02-05 12:01:29,203 [INFO] logging_config: ******** event subscribe ********
+2024-02-05 12:01:29,203 [INFO] logging_config: ******** event subscribe ********
+2024-02-05 12:01:29,203 [INFO] logging_config: ******** event subscribe ********
+2024-02-05 12:01:29,256 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123689097"}]}' [143 bytes]
+2024-02-05 12:01:29,392 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123689231"}]}' [143 bytes]
+2024-02-05 12:01:29,392 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123689235"}]}' [142 bytes]
+2024-02-05 12:01:29,461 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123689299"}]}' [143 bytes]
+2024-02-05 12:01:29,607 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123689435"}]}' [142 bytes]
+2024-02-05 12:01:29,607 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123689432"}]}' [143 bytes]
+2024-02-05 12:01:29,659 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123689500"}]}' [143 bytes]
+2024-02-05 12:01:29,794 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123689634"}]}' [143 bytes]
+2024-02-05 12:01:29,800 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123689637"}]}' [142 bytes]
+2024-02-05 12:01:29,862 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123689701"}]}' [143 bytes]
+2024-02-05 12:01:29,996 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123689839"}]}' [142 bytes]
+2024-02-05 12:01:30,000 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123689834"}]}' [143 bytes]
+2024-02-05 12:01:30,065 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123689902"}]}' [143 bytes]
+2024-02-05 12:01:30,187 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123690037"}]}' [143 bytes]
+2024-02-05 12:01:30,202 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123690045"}]}' [142 bytes]
+2024-02-05 12:01:30,265 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123690104"}]}' [143 bytes]
+2024-02-05 12:01:30,393 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123690237"}]}' [143 bytes]
+2024-02-05 12:01:30,407 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123690246"}]}' [142 bytes]
+2024-02-05 12:01:30,471 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123690308"}]}' [143 bytes]
+2024-02-05 12:01:30,599 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123690438"}]}' [143 bytes]
+2024-02-05 12:01:30,608 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123690447"}]}' [142 bytes]
+2024-02-05 12:01:30,667 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123690508"}]}' [143 bytes]
+2024-02-05 12:01:30,802 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123690640"}]}' [143 bytes]
+2024-02-05 12:01:30,818 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123690651"}]}' [142 bytes]
+2024-02-05 12:01:30,870 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123690710"}]}' [143 bytes]
+2024-02-05 12:01:31,000 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123690841"}]}' [143 bytes]
+2024-02-05 12:01:31,011 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123690852"}]}' [142 bytes]
+2024-02-05 12:01:31,072 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123690911"}]}' [143 bytes]
+2024-02-05 12:01:31,204 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123691042"}]}' [143 bytes]
+2024-02-05 12:01:31,215 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123691055"}]}' [142 bytes]
+2024-02-05 12:01:34,211 [INFO] logging_config: 2024-02-05T12:01:34.211067 BTC-USDT = 43062.8
+2024-02-05 12:01:34,211 [INFO] logging_config: 2024-02-05T12:01:34.211067 ETH-USDT = 2324.81
+2024-02-05 12:01:34,211 [INFO] logging_config: 2024-02-05T12:01:34.211067 XRP-USDT = 0.5039
+2024-02-05 12:01:34,211 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123691113"}]}' [143 bytes]
+2024-02-05 12:01:34,211 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123691242"}]}' [143 bytes]
+2024-02-05 12:01:34,212 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123691256"}]}' [142 bytes]
+2024-02-05 12:01:39,209 [INFO] logging_config: 2024-02-05T12:01:39.209272 ETH-USDT = 2324.81
+2024-02-05 12:01:39,209 [INFO] logging_config: 2024-02-05T12:01:39.209272 BTC-USDT = 43062.8
+2024-02-05 12:01:39,210 [INFO] logging_config: 2024-02-05T12:01:39.210224 XRP-USDT = 0.5039
+2024-02-05 12:01:39,210 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123691314"}]}' [143 bytes]
+2024-02-05 12:01:39,210 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123691444"}]}' [143 bytes]
+2024-02-05 12:01:39,210 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123691457"}]}' [142 bytes]
+2024-02-05 12:01:44,218 [INFO] logging_config: 2024-02-05T12:01:44.218438 ETH-USDT = 2324.81
+2024-02-05 12:01:44,218 [INFO] logging_config: 2024-02-05T12:01:44.218438 XRP-USDT = 0.5039
+2024-02-05 12:01:44,219 [INFO] logging_config: 2024-02-05T12:01:44.219101 BTC-USDT = 43063.3
+2024-02-05 12:01:44,219 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123691516"}]}' [143 bytes]
+2024-02-05 12:01:44,219 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123691645"}]}' [143 bytes]
+2024-02-05 12:01:44,219 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123691659"}]}' [142 bytes]
+2024-02-05 12:01:49,211 [INFO] logging_config: 2024-02-05T12:01:49.211328 ETH-USDT = 2324.82
+2024-02-05 12:01:49,211 [INFO] logging_config: 2024-02-05T12:01:49.211328 BTC-USDT = 43063.3
+2024-02-05 12:01:49,211 [INFO] logging_config: 2024-02-05T12:01:49.211328 XRP-USDT = 0.5039
+2024-02-05 12:01:49,212 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123691718"}]}' [143 bytes]
+2024-02-05 12:01:49,212 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123691846"}]}' [143 bytes]
+2024-02-05 12:01:49,212 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123691862"}]}' [142 bytes]
+2024-02-05 12:01:54,218 [INFO] logging_config: 2024-02-05T12:01:54.218840 ETH-USDT = 2324.83
+2024-02-05 12:01:54,218 [INFO] logging_config: 2024-02-05T12:01:54.218840 XRP-USDT = 0.5039
+2024-02-05 12:01:54,219 [INFO] logging_config: 2024-02-05T12:01:54.219867 BTC-USDT = 43063.7
+2024-02-05 12:01:54,219 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123691917"}]}' [143 bytes]
+2024-02-05 12:01:54,219 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123692046"}]}' [143 bytes]
+2024-02-05 12:01:54,219 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123692066"}]}' [142 bytes]
+2024-02-05 12:01:58,886 [DEBUG] websockets.client: % sending keepalive ping
+2024-02-05 12:01:58,886 [DEBUG] websockets.client: > PING 98 ac 42 55 [binary, 4 bytes]
+2024-02-05 12:01:59,229 [INFO] logging_config: 2024-02-05T12:01:59.229488 ETH-USDT = 2324.86
+2024-02-05 12:01:59,229 [INFO] logging_config: 2024-02-05T12:01:59.229488 BTC-USDT = 43063.7
+2024-02-05 12:01:59,230 [INFO] logging_config: 2024-02-05T12:01:59.230385 XRP-USDT = 0.5039
+2024-02-05 12:01:59,230 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123692118"}]}' [143 bytes]
+2024-02-05 12:01:59,230 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123692247"}]}' [143 bytes]
+2024-02-05 12:01:59,230 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123692266"}]}' [142 bytes]
+2024-02-05 12:02:04,237 [INFO] logging_config: 2024-02-05T12:02:04.237882 ETH-USDT = 2324.86
+2024-02-05 12:02:04,237 [INFO] logging_config: 2024-02-05T12:02:04.237882 BTC-USDT = 43063.7
+2024-02-05 12:02:04,237 [INFO] logging_config: 2024-02-05T12:02:04.237882 XRP-USDT = 0.5039
+2024-02-05 12:02:04,237 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123692320"}]}' [143 bytes]
+2024-02-05 12:02:04,237 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123692448"}]}' [143 bytes]
+2024-02-05 12:02:04,237 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123692468"}]}' [142 bytes]
+2024-02-05 12:02:09,251 [INFO] logging_config: 2024-02-05T12:02:09.251408 ETH-USDT = 2324.86
+2024-02-05 12:02:09,251 [INFO] logging_config: 2024-02-05T12:02:09.251886 BTC-USDT = 43063.7
+2024-02-05 12:02:09,251 [INFO] logging_config: 2024-02-05T12:02:09.251886 XRP-USDT = 0.5038
+2024-02-05 12:02:09,251 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123692521"}]}' [143 bytes]
+2024-02-05 12:02:09,251 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123692650"}]}' [143 bytes]
+2024-02-05 12:02:09,251 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123692669"}]}' [142 bytes]
+2024-02-05 12:02:14,261 [INFO] logging_config: 2024-02-05T12:02:14.261924 ETH-USDT = 2324.86
+2024-02-05 12:02:14,261 [INFO] logging_config: 2024-02-05T12:02:14.261924 BTC-USDT = 43063.7
+2024-02-05 12:02:14,261 [INFO] logging_config: 2024-02-05T12:02:14.261924 XRP-USDT = 0.5038
+2024-02-05 12:02:14,262 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123692723"}]}' [143 bytes]
+2024-02-05 12:02:14,262 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123692852"}]}' [143 bytes]
+2024-02-05 12:02:14,262 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123692872"}]}' [142 bytes]
+2024-02-05 12:02:19,260 [INFO] logging_config: 2024-02-05T12:02:19.260451 ETH-USDT = 2324.87
+2024-02-05 12:02:19,260 [INFO] logging_config: 2024-02-05T12:02:19.260939 BTC-USDT = 43063.7
+2024-02-05 12:02:19,260 [INFO] logging_config: 2024-02-05T12:02:19.260939 XRP-USDT = 0.5038
+2024-02-05 12:02:19,260 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123692925"}]}' [143 bytes]
+2024-02-05 12:02:19,260 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123693052"}]}' [143 bytes]
+2024-02-05 12:02:19,260 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123693075"}]}' [142 bytes]
+2024-02-05 12:02:24,263 [INFO] logging_config: 2024-02-05T12:02:24.263264 ETH-USDT = 2324.87
+2024-02-05 12:02:24,263 [INFO] logging_config: 2024-02-05T12:02:24.263334 BTC-USDT = 43063.7
+2024-02-05 12:02:24,263 [INFO] logging_config: 2024-02-05T12:02:24.263334 XRP-USDT = 0.5038
+2024-02-05 12:02:24,263 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123693127"}]}' [143 bytes]
+2024-02-05 12:02:24,263 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123693253"}]}' [143 bytes]
+2024-02-05 12:02:24,263 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123693277"}]}' [142 bytes]
+2024-02-05 12:02:29,267 [INFO] logging_config: 2024-02-05T12:02:29.267343 ETH-USDT = 2324.97
+2024-02-05 12:02:29,267 [INFO] logging_config: 2024-02-05T12:02:29.267975 BTC-USDT = 43063.7
+2024-02-05 12:02:29,267 [INFO] logging_config: 2024-02-05T12:02:29.267975 XRP-USDT = 0.5038
+2024-02-05 12:02:29,267 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123693328"}]}' [143 bytes]
+2024-02-05 12:02:29,267 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123693453"}]}' [143 bytes]
+2024-02-05 12:02:29,268 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123693479"}]}' [142 bytes]
+2024-02-05 12:02:34,273 [INFO] logging_config: 2024-02-05T12:02:34.273624 ETH-USDT = 2325.0
+2024-02-05 12:02:34,274 [INFO] logging_config: 2024-02-05T12:02:34.274614 BTC-USDT = 43063.7
+2024-02-05 12:02:34,275 [INFO] logging_config: 2024-02-05T12:02:34.275612 XRP-USDT = 0.5038
+2024-02-05 12:02:34,276 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123693529"}]}' [143 bytes]
+2024-02-05 12:02:34,277 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123693654"}]}' [143 bytes]
+2024-02-05 12:02:34,277 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123693681"}]}' [142 bytes]
+2024-02-05 12:02:39,286 [INFO] logging_config: 2024-02-05T12:02:39.286078 ETH-USDT = 2325.08
+2024-02-05 12:02:39,286 [INFO] logging_config: 2024-02-05T12:02:39.286078 BTC-USDT = 43064.1
+2024-02-05 12:02:39,286 [INFO] logging_config: 2024-02-05T12:02:39.286078 XRP-USDT = 0.5038
+2024-02-05 12:02:39,286 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123693729"}]}' [143 bytes]
+2024-02-05 12:02:39,286 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123693856"}]}' [143 bytes]
+2024-02-05 12:02:39,287 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123693884"}]}' [142 bytes]
+2024-02-05 12:02:44,288 [INFO] logging_config: 2024-02-05T12:02:44.288806 ETH-USDT = 2325.08
+2024-02-05 12:02:44,289 [INFO] logging_config: 2024-02-05T12:02:44.289352 BTC-USDT = 43064.3
+2024-02-05 12:02:44,289 [INFO] logging_config: 2024-02-05T12:02:44.289352 XRP-USDT = 0.5038
+2024-02-05 12:02:44,289 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123693930"}]}' [143 bytes]
+2024-02-05 12:02:44,289 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123694056"}]}' [143 bytes]
+2024-02-05 12:02:44,289 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123694087"}]}' [142 bytes]
+2024-02-05 12:02:49,289 [INFO] logging_config: 2024-02-05T12:02:49.289516 ETH-USDT = 2325.08
+2024-02-05 12:02:49,290 [INFO] logging_config: 2024-02-05T12:02:49.290478 BTC-USDT = 43064.3
+2024-02-05 12:02:49,290 [INFO] logging_config: 2024-02-05T12:02:49.290478 XRP-USDT = 0.5038
+2024-02-05 12:02:49,291 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123694131"}]}' [143 bytes]
+2024-02-05 12:02:49,291 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123694258"}]}' [143 bytes]
+2024-02-05 12:02:49,292 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123694290"}]}' [142 bytes]
+2024-02-05 12:02:54,285 [INFO] logging_config: 2024-02-05T12:02:54.285369 ETH-USDT = 2325.08
+2024-02-05 12:02:54,285 [INFO] logging_config: 2024-02-05T12:02:54.285369 BTC-USDT = 43064.9
+2024-02-05 12:02:54,285 [INFO] logging_config: 2024-02-05T12:02:54.285369 XRP-USDT = 0.5038
+2024-02-05 12:02:54,285 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123694334"}]}' [143 bytes]
+2024-02-05 12:02:54,285 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123694459"}]}' [143 bytes]
+2024-02-05 12:02:54,285 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123694493"}]}' [142 bytes]
+2024-02-05 12:02:59,283 [INFO] logging_config: 2024-02-05T12:02:59.283524 ETH-USDT = 2325.08
+2024-02-05 12:02:59,284 [INFO] logging_config: 2024-02-05T12:02:59.284477 BTC-USDT = 43064.9
+2024-02-05 12:02:59,284 [INFO] logging_config: 2024-02-05T12:02:59.284477 XRP-USDT = 0.5038
+2024-02-05 12:02:59,285 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123694536"}]}' [143 bytes]
+2024-02-05 12:02:59,285 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123694660"}]}' [143 bytes]
+2024-02-05 12:02:59,286 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123694694"}]}' [142 bytes]
+2024-02-05 12:03:04,288 [INFO] logging_config: 2024-02-05T12:03:04.288621 ETH-USDT = 2325.08
+2024-02-05 12:03:04,288 [INFO] logging_config: 2024-02-05T12:03:04.288621 BTC-USDT = 43064.9
+2024-02-05 12:03:04,288 [INFO] logging_config: 2024-02-05T12:03:04.288621 XRP-USDT = 0.5038
+2024-02-05 12:03:04,288 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123694737"}]}' [143 bytes]
+2024-02-05 12:03:04,288 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123694860"}]}' [143 bytes]
+2024-02-05 12:03:04,288 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123694895"}]}' [142 bytes]
+2024-02-05 12:03:09,286 [INFO] logging_config: 2024-02-05T12:03:09.286728 ETH-USDT = 2325.07
+2024-02-05 12:03:09,287 [INFO] logging_config: 2024-02-05T12:03:09.286728 BTC-USDT = 43064.9
+2024-02-05 12:03:09,287 [INFO] logging_config: 2024-02-05T12:03:09.287220 XRP-USDT = 0.5038
+2024-02-05 12:03:09,287 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123694938"}]}' [143 bytes]
+2024-02-05 12:03:09,287 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123695062"}]}' [143 bytes]
+2024-02-05 12:03:09,287 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123695096"}]}' [142 bytes]
+2024-02-05 12:03:14,298 [INFO] logging_config: 2024-02-05T12:03:14.298097 ETH-USDT = 2325.07
+2024-02-05 12:03:14,298 [INFO] logging_config: 2024-02-05T12:03:14.298097 BTC-USDT = 43065.4
+2024-02-05 12:03:14,298 [INFO] logging_config: 2024-02-05T12:03:14.298097 XRP-USDT = 0.5036
+2024-02-05 12:03:14,298 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123695140"}]}' [143 bytes]
+2024-02-05 12:03:14,298 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123695265"}]}' [143 bytes]
+2024-02-05 12:03:14,298 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123695298"}]}' [142 bytes]
+2024-02-05 12:03:19,312 [INFO] logging_config: 2024-02-05T12:03:19.312979 ETH-USDT = 2325.07
+2024-02-05 12:03:19,312 [INFO] logging_config: 2024-02-05T12:03:19.312979 BTC-USDT = 43065.4
+2024-02-05 12:03:19,312 [INFO] logging_config: 2024-02-05T12:03:19.312979 XRP-USDT = 0.5036
+2024-02-05 12:03:19,312 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123695342"}]}' [143 bytes]
+2024-02-05 12:03:19,312 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123695464"}]}' [143 bytes]
+2024-02-05 12:03:19,313 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123695500"}]}' [142 bytes]
+2024-02-05 12:03:24,330 [INFO] logging_config: 2024-02-05T12:03:24.330158 ETH-USDT = 2325.07
+2024-02-05 12:03:24,330 [INFO] logging_config: 2024-02-05T12:03:24.330158 BTC-USDT = 43065.7
+2024-02-05 12:03:24,330 [INFO] logging_config: 2024-02-05T12:03:24.330158 XRP-USDT = 0.5036
+2024-02-05 12:03:24,330 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123695543"}]}' [143 bytes]
+2024-02-05 12:03:24,331 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123695664"}]}' [143 bytes]
+2024-02-05 12:03:24,331 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123695705"}]}' [142 bytes]
+2024-02-05 12:03:28,875 [DEBUG] websockets.client: ! timed out waiting for keepalive pong
+2024-02-05 12:03:28,875 [DEBUG] websockets.client: ! failing connection with code 1011
+2024-02-05 12:03:28,875 [DEBUG] websockets.client: = connection is CLOSING
+2024-02-05 12:03:28,875 [DEBUG] websockets.client: > CLOSE 1011 (internal error) keepalive ping timeout [24 bytes]
+2024-02-05 12:03:29,351 [INFO] logging_config: 2024-02-05T12:03:29.351775 ETH-USDT = 2325.09
+2024-02-05 12:03:29,351 [INFO] logging_config: 2024-02-05T12:03:29.351775 BTC-USDT = 43065.7
+2024-02-05 12:03:29,351 [INFO] logging_config: 2024-02-05T12:03:29.351775 XRP-USDT = 0.5036
+2024-02-05 12:03:34,353 [INFO] logging_config: 2024-02-05T12:03:34.353555 ETH-USDT = 2325.09
+2024-02-05 12:03:34,353 [INFO] logging_config: 2024-02-05T12:03:34.353555 BTC-USDT = 43065.7
+2024-02-05 12:03:34,353 [INFO] logging_config: 2024-02-05T12:03:34.353555 XRP-USDT = 0.5036
+2024-02-05 12:03:38,894 [DEBUG] websockets.client: ! timed out waiting for TCP close
+2024-02-05 12:03:38,894 [DEBUG] websockets.client: x closing TCP connection
+2024-02-05 12:03:39,361 [INFO] logging_config: 2024-02-05T12:03:39.361913 ETH-USDT = 2325.09
+2024-02-05 12:03:39,361 [INFO] logging_config: 2024-02-05T12:03:39.361913 BTC-USDT = 43065.7
+2024-02-05 12:03:39,361 [INFO] logging_config: 2024-02-05T12:03:39.361913 XRP-USDT = 0.5036
+2024-02-05 12:03:44,370 [INFO] logging_config: 2024-02-05T12:03:44.370265 ETH-USDT = 2325.09
+2024-02-05 12:03:44,370 [INFO] logging_config: 2024-02-05T12:03:44.370265 BTC-USDT = 43065.7
+2024-02-05 12:03:44,370 [INFO] logging_config: 2024-02-05T12:03:44.370265 XRP-USDT = 0.5036
+2024-02-05 12:03:48,917 [DEBUG] websockets.client: ! timed out waiting for TCP close
+2024-02-05 12:03:48,917 [DEBUG] websockets.client: x aborting TCP connection
+2024-02-05 12:03:48,917 [DEBUG] websockets.client: = connection is CLOSED
+2024-02-05 12:03:49,385 [INFO] logging_config: 2024-02-05T12:03:49.385642 ETH-USDT = 2325.09
+2024-02-05 12:03:49,385 [INFO] logging_config: 2024-02-05T12:03:49.385642 BTC-USDT = 43065.7
+2024-02-05 12:03:49,385 [INFO] logging_config: 2024-02-05T12:03:49.385642 XRP-USDT = 0.5036
+2024-02-05 12:03:54,396 [INFO] logging_config: 2024-02-05T12:03:54.396291 ETH-USDT = 2325.09
+2024-02-05 12:03:54,396 [INFO] logging_config: 2024-02-05T12:03:54.396291 BTC-USDT = 43065.7
+2024-02-05 12:03:54,396 [INFO] logging_config: 2024-02-05T12:03:54.396291 XRP-USDT = 0.5036
+2024-02-05 12:03:59,399 [INFO] logging_config: 2024-02-05T12:03:59.399080 ETH-USDT = 2325.09
+2024-02-05 12:03:59,400 [INFO] logging_config: 2024-02-05T12:03:59.400088 BTC-USDT = 43065.7
+2024-02-05 12:03:59,401 [INFO] logging_config: 2024-02-05T12:03:59.400088 XRP-USDT = 0.5036
+2024-02-05 12:04:04,414 [INFO] logging_config: 2024-02-05T12:04:04.414889 ETH-USDT = 2325.09
+2024-02-05 12:04:04,414 [INFO] logging_config: 2024-02-05T12:04:04.414889 BTC-USDT = 43065.7
+2024-02-05 12:04:04,414 [INFO] logging_config: 2024-02-05T12:04:04.414889 XRP-USDT = 0.5036
+2024-02-05 12:04:09,421 [INFO] logging_config: 2024-02-05T12:04:09.421477 ETH-USDT = 2325.09
+2024-02-05 12:04:09,422 [INFO] logging_config: 2024-02-05T12:04:09.422149 BTC-USDT = 43065.7
+2024-02-05 12:04:09,423 [INFO] logging_config: 2024-02-05T12:04:09.422149 XRP-USDT = 0.5036
+2024-02-05 12:04:14,424 [INFO] logging_config: 2024-02-05T12:04:14.424784 ETH-USDT = 2325.09
+2024-02-05 12:04:14,424 [INFO] logging_config: 2024-02-05T12:04:14.424784 BTC-USDT = 43066.2
+2024-02-05 12:04:14,424 [INFO] logging_config: 2024-02-05T12:04:14.424784 XRP-USDT = 0.5036
+2024-02-05 12:04:19,439 [INFO] logging_config: 2024-02-05T12:04:19.439282 ETH-USDT = 2325.09
+2024-02-05 12:04:19,440 [INFO] logging_config: 2024-02-05T12:04:19.440277 BTC-USDT = 43066.2
+2024-02-05 12:04:19,441 [ERROR] logging_config: Connection to OKX closed: sent 1011 (internal error) keepalive ping timeout; no close frame received
+2024-02-05 12:04:24,480 [DEBUG] websockets.client: = connection is CONNECTING
+2024-02-05 12:04:24,533 [DEBUG] websockets.client: > GET /ws/v5/public HTTP/1.1
+2024-02-05 12:04:24,533 [DEBUG] websockets.client: > Host: ws.okx.com:8443
+2024-02-05 12:04:24,533 [DEBUG] websockets.client: > Upgrade: websocket
+2024-02-05 12:04:24,533 [DEBUG] websockets.client: > Connection: Upgrade
+2024-02-05 12:04:24,533 [DEBUG] websockets.client: > Sec-WebSocket-Key: vFG4TkuPMWXPRLWBZalFjQ==
+2024-02-05 12:04:24,533 [DEBUG] websockets.client: > Sec-WebSocket-Version: 13
+2024-02-05 12:04:24,533 [DEBUG] websockets.client: > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2024-02-05 12:04:24,533 [DEBUG] websockets.client: > User-Agent: Python/3.11 websockets/12.0
+2024-02-05 12:04:25,430 [DEBUG] websockets.client: < HTTP/1.1 101 Switching Protocols
+2024-02-05 12:04:25,430 [DEBUG] websockets.client: < Date: Mon, 05 Feb 2024 09:04:25 GMT
+2024-02-05 12:04:25,431 [DEBUG] websockets.client: < Connection: upgrade
+2024-02-05 12:04:25,431 [DEBUG] websockets.client: < upgrade: websocket
+2024-02-05 12:04:25,431 [DEBUG] websockets.client: < sec-websocket-accept: JlzprwE41Z5RtKtu4CADAXhBgrM=
+2024-02-05 12:04:25,431 [DEBUG] websockets.client: < sec-websocket-extensions: permessage-deflate
+2024-02-05 12:04:25,432 [DEBUG] websockets.client: < CF-Cache-Status: DYNAMIC
+2024-02-05 12:04:25,432 [DEBUG] websockets.client: < Set-Cookie: __cf_bm=Sa3x4WWlmieePfaK8L6MIln_o9.rxhe5DOI0xmc1fBk-1707123865-1-AcFBPRT7c5cBOmnZsjKJMolpDzs7pqu2eObqpgecoJAFqFYeodr0TbLT+b4DICGq4PelJk1NmChq/F3SUNTQxXw=; path=/; expires=Mon, 05-Feb-24 09:34:25 GMT; domain=.okx.com; HttpOnly; Secure; SameSite=None
+2024-02-05 12:04:25,432 [DEBUG] websockets.client: < Server: cloudflare
+2024-02-05 12:04:25,432 [DEBUG] websockets.client: < CF-RAY: 8509fc59fa2ffc63-WAW
+2024-02-05 12:04:25,433 [DEBUG] websockets.client: = connection is OPEN
+2024-02-05 12:04:25,433 [INFO] logging_config: Connected to OKX2024-02-05T12:04:25.433497
+2024-02-05 12:04:25,433 [DEBUG] websockets.client: > TEXT '{"op": "subscribe", "args": [{"channel": "mark-..."instId": "XRP-USDT"}]}' [176 bytes]
+2024-02-05 12:04:25,719 [DEBUG] websockets.client: < TEXT '{"event":"subscribe","arg":{"channel":"mark-pri..."},"connId":"58b88987"}' [92 bytes]
+2024-02-05 12:04:25,720 [DEBUG] websockets.client: < TEXT '{"event":"subscribe","arg":{"channel":"mark-pri..."},"connId":"58b88987"}' [92 bytes]
+2024-02-05 12:04:25,720 [DEBUG] websockets.client: < TEXT '{"event":"subscribe","arg":{"channel":"mark-pri..."},"connId":"58b88987"}' [92 bytes]
+2024-02-05 12:04:25,720 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123865409"}]}' [143 bytes]
+2024-02-05 12:04:25,720 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123865509"}]}' [143 bytes]
+2024-02-05 12:04:25,720 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123865412"}]}' [142 bytes]
+2024-02-05 12:04:25,720 [INFO] logging_config: ******** event subscribe ********
+2024-02-05 12:04:25,720 [INFO] logging_config: ******** event subscribe ********
+2024-02-05 12:04:25,720 [INFO] logging_config: ******** event subscribe ********
+2024-02-05 12:04:25,768 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123865610"}]}' [143 bytes]
+2024-02-05 12:04:25,768 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123865613"}]}' [142 bytes]
+2024-02-05 12:04:25,867 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123865711"}]}' [143 bytes]
+2024-02-05 12:04:25,967 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123865811"}]}' [143 bytes]
+2024-02-05 12:04:25,972 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123865817"}]}' [142 bytes]
+2024-02-05 12:04:26,069 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123865914"}]}' [143 bytes]
+2024-02-05 12:04:26,164 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123866013"}]}' [143 bytes]
+2024-02-05 12:04:26,178 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123866019"}]}' [142 bytes]
+2024-02-05 12:04:26,269 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123866115"}]}' [143 bytes]
+2024-02-05 12:04:26,372 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123866213"}]}' [143 bytes]
+2024-02-05 12:04:26,376 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123866221"}]}' [142 bytes]
+2024-02-05 12:04:26,483 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123866316"}]}' [143 bytes]
+2024-02-05 12:04:26,573 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123866414"}]}' [143 bytes]
+2024-02-05 12:04:26,580 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123866423"}]}' [142 bytes]
+2024-02-05 12:04:26,672 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123866517"}]}' [143 bytes]
+2024-02-05 12:04:26,771 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123866615"}]}' [143 bytes]
+2024-02-05 12:04:26,790 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123866625"}]}' [142 bytes]
+2024-02-05 12:04:26,874 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123866719"}]}' [143 bytes]
+2024-02-05 12:04:26,971 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123866816"}]}' [143 bytes]
+2024-02-05 12:04:26,988 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123866826"}]}' [142 bytes]
+2024-02-05 12:04:27,085 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123866920"}]}' [143 bytes]
+2024-02-05 12:04:27,177 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123867017"}]}' [143 bytes]
+2024-02-05 12:04:27,191 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123867027"}]}' [142 bytes]
+2024-02-05 12:04:27,277 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123867125"}]}' [143 bytes]
+2024-02-05 12:04:27,376 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123867218"}]}' [143 bytes]
+2024-02-05 12:04:27,384 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123867228"}]}' [142 bytes]
+2024-02-05 12:04:27,481 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123867327"}]}' [143 bytes]
+2024-02-05 12:04:27,577 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123867419"}]}' [143 bytes]
+2024-02-05 12:04:27,593 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123867431"}]}' [142 bytes]
+2024-02-05 12:04:27,688 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123867529"}]}' [143 bytes]
+2024-02-05 12:04:30,705 [INFO] logging_config: 2024-02-05T12:04:30.705997 BTC-USDT = 43036.0
+2024-02-05 12:04:30,706 [INFO] logging_config: 2024-02-05T12:04:30.705997 ETH-USDT = 2323.79
+2024-02-05 12:04:30,706 [INFO] logging_config: 2024-02-05T12:04:30.706845 XRP-USDT = 0.5035
+2024-02-05 12:04:30,706 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123867621"}]}' [143 bytes]
+2024-02-05 12:04:30,706 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123867634"}]}' [142 bytes]
+2024-02-05 12:04:30,706 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123867730"}]}' [143 bytes]
+2024-02-05 12:04:35,710 [INFO] logging_config: 2024-02-05T12:04:35.710124 BTC-USDT = 43036.0
+2024-02-05 12:04:35,710 [INFO] logging_config: 2024-02-05T12:04:35.710124 XRP-USDT = 0.5035
+2024-02-05 12:04:35,711 [INFO] logging_config: 2024-02-05T12:04:35.711087 ETH-USDT = 2323.79
+2024-02-05 12:04:35,712 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123867821"}]}' [143 bytes]
+2024-02-05 12:04:35,712 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123867835"}]}' [142 bytes]
+2024-02-05 12:04:35,712 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123867931"}]}' [143 bytes]
+2024-02-05 12:04:40,717 [INFO] logging_config: 2024-02-05T12:04:40.717097 BTC-USDT = 43036.0
+2024-02-05 12:04:40,717 [INFO] logging_config: 2024-02-05T12:04:40.717097 XRP-USDT = 0.5035
+2024-02-05 12:04:40,717 [INFO] logging_config: 2024-02-05T12:04:40.717097 ETH-USDT = 2323.79
+2024-02-05 12:04:40,718 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123868024"}]}' [143 bytes]
+2024-02-05 12:04:40,718 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123868037"}]}' [142 bytes]
+2024-02-05 12:04:40,718 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123868133"}]}' [143 bytes]
+2024-02-05 12:04:45,732 [INFO] logging_config: 2024-02-05T12:04:45.732085 BTC-USDT = 43035.9
+2024-02-05 12:04:45,732 [INFO] logging_config: 2024-02-05T12:04:45.732085 XRP-USDT = 0.5035
+2024-02-05 12:04:45,732 [INFO] logging_config: 2024-02-05T12:04:45.732085 ETH-USDT = 2323.79
+2024-02-05 12:04:45,732 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123868223"}]}' [143 bytes]
+2024-02-05 12:04:45,733 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123868239"}]}' [142 bytes]
+2024-02-05 12:04:45,733 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123868333"}]}' [143 bytes]
+2024-02-05 12:04:50,740 [INFO] logging_config: 2024-02-05T12:04:50.740394 BTC-USDT = 43035.9
+2024-02-05 12:04:50,741 [INFO] logging_config: 2024-02-05T12:04:50.741378 XRP-USDT = 0.5035
+2024-02-05 12:04:50,741 [INFO] logging_config: 2024-02-05T12:04:50.741378 ETH-USDT = 2323.78
+2024-02-05 12:04:50,742 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123868424"}]}' [143 bytes]
+2024-02-05 12:04:50,742 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123868441"}]}' [142 bytes]
+2024-02-05 12:04:50,742 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123868534"}]}' [143 bytes]
+2024-02-05 12:04:55,436 [DEBUG] websockets.client: % sending keepalive ping
+2024-02-05 12:04:55,437 [DEBUG] websockets.client: > PING 86 2b 4e cb [binary, 4 bytes]
+2024-02-05 12:04:55,748 [INFO] logging_config: 2024-02-05T12:04:55.748567 BTC-USDT = 43035.9
+2024-02-05 12:04:55,748 [INFO] logging_config: 2024-02-05T12:04:55.748567 XRP-USDT = 0.5035
+2024-02-05 12:04:55,748 [INFO] logging_config: 2024-02-05T12:04:55.748567 ETH-USDT = 2323.78
+2024-02-05 12:04:55,748 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123868626"}]}' [143 bytes]
+2024-02-05 12:04:55,749 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123868641"}]}' [142 bytes]
+2024-02-05 12:04:55,749 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123868735"}]}' [143 bytes]
+2024-02-05 12:05:00,747 [INFO] logging_config: 2024-02-05T12:05:00.747680 BTC-USDT = 43035.9
+2024-02-05 12:05:00,747 [INFO] logging_config: 2024-02-05T12:05:00.747680 XRP-USDT = 0.5035
+2024-02-05 12:05:00,747 [INFO] logging_config: 2024-02-05T12:05:00.747680 ETH-USDT = 2323.81
+2024-02-05 12:05:00,747 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123868826"}]}' [143 bytes]
+2024-02-05 12:05:00,748 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123868841"}]}' [142 bytes]
+2024-02-05 12:05:00,748 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123868937"}]}' [143 bytes]
+2024-02-05 12:05:05,746 [INFO] logging_config: 2024-02-05T12:05:05.746218 BTC-USDT = 43035.9
+2024-02-05 12:05:05,746 [INFO] logging_config: 2024-02-05T12:05:05.746218 XRP-USDT = 0.5035
+2024-02-05 12:05:05,746 [INFO] logging_config: 2024-02-05T12:05:05.746218 ETH-USDT = 2323.81
+2024-02-05 12:05:05,746 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123869027"}]}' [143 bytes]
+2024-02-05 12:05:05,746 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123869045"}]}' [142 bytes]
+2024-02-05 12:05:05,746 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123869138"}]}' [143 bytes]
+2024-02-05 12:05:10,756 [INFO] logging_config: 2024-02-05T12:05:10.756332 BTC-USDT = 43035.9
+2024-02-05 12:05:10,756 [INFO] logging_config: 2024-02-05T12:05:10.756332 XRP-USDT = 0.5035
+2024-02-05 12:05:10,756 [INFO] logging_config: 2024-02-05T12:05:10.756332 ETH-USDT = 2323.81
+2024-02-05 12:05:10,757 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123869228"}]}' [143 bytes]
+2024-02-05 12:05:10,757 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123869246"}]}' [142 bytes]
+2024-02-05 12:05:10,757 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123869338"}]}' [143 bytes]
+2024-02-05 12:05:15,756 [INFO] logging_config: 2024-02-05T12:05:15.756389 BTC-USDT = 43035.8
+2024-02-05 12:05:15,756 [INFO] logging_config: 2024-02-05T12:05:15.756389 XRP-USDT = 0.5035
+2024-02-05 12:05:15,756 [INFO] logging_config: 2024-02-05T12:05:15.756389 ETH-USDT = 2323.81
+2024-02-05 12:05:15,756 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123869429"}]}' [143 bytes]
+2024-02-05 12:05:15,757 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123869451"}]}' [142 bytes]
+2024-02-05 12:05:15,757 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123869541"}]}' [143 bytes]
+2024-02-05 12:05:20,777 [INFO] logging_config: 2024-02-05T12:05:20.777711 BTC-USDT = 43035.8
+2024-02-05 12:05:20,777 [INFO] logging_config: 2024-02-05T12:05:20.777711 XRP-USDT = 0.5035
+2024-02-05 12:05:20,777 [INFO] logging_config: 2024-02-05T12:05:20.777711 ETH-USDT = 2323.81
+2024-02-05 12:05:20,778 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123869631"}]}' [143 bytes]
+2024-02-05 12:05:20,778 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123869648"}]}' [142 bytes]
+2024-02-05 12:05:20,778 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123869743"}]}' [143 bytes]
+2024-02-05 12:05:25,774 [INFO] logging_config: 2024-02-05T12:05:25.774242 BTC-USDT = 43035.8
+2024-02-05 12:05:25,774 [INFO] logging_config: 2024-02-05T12:05:25.774242 XRP-USDT = 0.5035
+2024-02-05 12:05:25,774 [INFO] logging_config: 2024-02-05T12:05:25.774242 ETH-USDT = 2323.86
+2024-02-05 12:05:25,774 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123869832"}]}' [143 bytes]
+2024-02-05 12:05:25,774 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123869854"}]}' [142 bytes]
+2024-02-05 12:05:25,774 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123869945"}]}' [143 bytes]
+2024-02-05 12:05:30,777 [INFO] logging_config: 2024-02-05T12:05:30.777511 BTC-USDT = 43035.8
+2024-02-05 12:05:30,777 [INFO] logging_config: 2024-02-05T12:05:30.777511 XRP-USDT = 0.5035
+2024-02-05 12:05:30,777 [INFO] logging_config: 2024-02-05T12:05:30.777511 ETH-USDT = 2323.86
+2024-02-05 12:05:30,778 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123870034"}]}' [143 bytes]
+2024-02-05 12:05:30,778 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123870053"}]}' [142 bytes]
+2024-02-05 12:05:30,779 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123870147"}]}' [143 bytes]
+2024-02-05 12:05:35,762 [INFO] logging_config: 2024-02-05T12:05:35.762214 BTC-USDT = 43035.8
+2024-02-05 12:05:35,762 [INFO] logging_config: 2024-02-05T12:05:35.762214 XRP-USDT = 0.5035
+2024-02-05 12:05:35,762 [INFO] logging_config: 2024-02-05T12:05:35.762214 ETH-USDT = 2323.87
+2024-02-05 12:05:35,763 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123870235"}]}' [143 bytes]
+2024-02-05 12:05:35,763 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123870255"}]}' [142 bytes]
+2024-02-05 12:05:35,763 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123870349"}]}' [143 bytes]
+2024-02-05 12:05:40,762 [INFO] logging_config: 2024-02-05T12:05:40.762796 BTC-USDT = 43035.7
+2024-02-05 12:05:40,763 [INFO] logging_config: 2024-02-05T12:05:40.763577 XRP-USDT = 0.5035
+2024-02-05 12:05:40,763 [INFO] logging_config: 2024-02-05T12:05:40.763577 ETH-USDT = 2323.87
+2024-02-05 12:05:40,763 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123870436"}]}' [143 bytes]
+2024-02-05 12:05:40,764 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123870457"}]}' [142 bytes]
+2024-02-05 12:05:40,764 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123870551"}]}' [143 bytes]
+2024-02-05 12:05:45,772 [INFO] logging_config: 2024-02-05T12:05:45.772867 BTC-USDT = 43035.7
+2024-02-05 12:05:45,772 [INFO] logging_config: 2024-02-05T12:05:45.772867 XRP-USDT = 0.5035
+2024-02-05 12:05:45,772 [INFO] logging_config: 2024-02-05T12:05:45.772867 ETH-USDT = 2323.9
+2024-02-05 12:05:45,772 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123870636"}]}' [143 bytes]
+2024-02-05 12:05:45,772 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123870659"}]}' [142 bytes]
+2024-02-05 12:05:45,772 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123870751"}]}' [143 bytes]
+2024-02-05 12:05:50,765 [INFO] logging_config: 2024-02-05T12:05:50.765545 BTC-USDT = 43035.7
+2024-02-05 12:05:50,765 [INFO] logging_config: 2024-02-05T12:05:50.765545 XRP-USDT = 0.5035
+2024-02-05 12:05:50,765 [INFO] logging_config: 2024-02-05T12:05:50.765545 ETH-USDT = 2323.9
+2024-02-05 12:05:50,765 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123870838"}]}' [143 bytes]
+2024-02-05 12:05:50,765 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123870862"}]}' [142 bytes]
+2024-02-05 12:05:50,765 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123870953"}]}' [143 bytes]
+2024-02-05 12:05:55,777 [INFO] logging_config: 2024-02-05T12:05:55.777367 BTC-USDT = 43035.7
+2024-02-05 12:05:55,777 [INFO] logging_config: 2024-02-05T12:05:55.777367 XRP-USDT = 0.5035
+2024-02-05 12:05:55,777 [INFO] logging_config: 2024-02-05T12:05:55.777367 ETH-USDT = 2323.9
+2024-02-05 12:05:55,777 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123871039"}]}' [143 bytes]
+2024-02-05 12:05:55,778 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123871063"}]}' [142 bytes]
+2024-02-05 12:05:55,778 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123871155"}]}' [143 bytes]
+2024-02-05 12:06:00,777 [INFO] logging_config: 2024-02-05T12:06:00.777087 BTC-USDT = 43035.7
+2024-02-05 12:06:00,777 [INFO] logging_config: 2024-02-05T12:06:00.777087 XRP-USDT = 0.5035
+2024-02-05 12:06:00,777 [INFO] logging_config: 2024-02-05T12:06:00.777087 ETH-USDT = 2323.9
+2024-02-05 12:06:00,777 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123871240"}]}' [143 bytes]
+2024-02-05 12:06:00,777 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123871264"}]}' [142 bytes]
+2024-02-05 12:06:00,777 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123871357"}]}' [143 bytes]
+2024-02-05 12:06:05,762 [INFO] logging_config: 2024-02-05T12:06:05.762300 BTC-USDT = 43035.7
+2024-02-05 12:06:05,763 [INFO] logging_config: 2024-02-05T12:06:05.763302 XRP-USDT = 0.5035
+2024-02-05 12:06:05,763 [INFO] logging_config: 2024-02-05T12:06:05.763302 ETH-USDT = 2323.9
+2024-02-05 12:06:05,764 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123871440"}]}' [143 bytes]
+2024-02-05 12:06:05,764 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123871466"}]}' [142 bytes]
+2024-02-05 12:06:05,764 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123871558"}]}' [143 bytes]
+2024-02-05 12:06:10,767 [INFO] logging_config: 2024-02-05T12:06:10.765998 BTC-USDT = 43035.6
+2024-02-05 12:06:10,767 [INFO] logging_config: 2024-02-05T12:06:10.767001 XRP-USDT = 0.5035
+2024-02-05 12:06:10,767 [INFO] logging_config: 2024-02-05T12:06:10.767001 ETH-USDT = 2323.9
+2024-02-05 12:06:10,767 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123871641"}]}' [143 bytes]
+2024-02-05 12:06:10,767 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123871667"}]}' [142 bytes]
+2024-02-05 12:06:10,767 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123871760"}]}' [143 bytes]
+2024-02-05 12:06:15,784 [INFO] logging_config: 2024-02-05T12:06:15.784385 BTC-USDT = 43035.6
+2024-02-05 12:06:15,785 [INFO] logging_config: 2024-02-05T12:06:15.785434 XRP-USDT = 0.5035
+2024-02-05 12:06:15,785 [INFO] logging_config: 2024-02-05T12:06:15.785434 ETH-USDT = 2323.9
+2024-02-05 12:06:15,786 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123871843"}]}' [143 bytes]
+2024-02-05 12:06:15,786 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123871868"}]}' [142 bytes]
+2024-02-05 12:06:15,787 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123871962"}]}' [143 bytes]
+2024-02-05 12:06:20,798 [INFO] logging_config: 2024-02-05T12:06:20.798476 BTC-USDT = 43035.6
+2024-02-05 12:06:20,798 [INFO] logging_config: 2024-02-05T12:06:20.798476 XRP-USDT = 0.5035
+2024-02-05 12:06:20,798 [INFO] logging_config: 2024-02-05T12:06:20.798476 ETH-USDT = 2323.92
+2024-02-05 12:06:20,798 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707123872043"}]}' [143 bytes]
+2024-02-05 12:06:20,798 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707123872069"}]}' [142 bytes]
+2024-02-05 12:06:20,798 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707123872161"}]}' [143 bytes]
+2024-02-05 12:06:25,446 [DEBUG] websockets.client: ! timed out waiting for keepalive pong
+2024-02-05 12:06:25,446 [DEBUG] websockets.client: ! failing connection with code 1011
+2024-02-05 12:06:25,446 [DEBUG] websockets.client: = connection is CLOSING
+2024-02-05 12:06:25,446 [DEBUG] websockets.client: > CLOSE 1011 (internal error) keepalive ping timeout [24 bytes]
+2024-02-05 12:06:25,805 [INFO] logging_config: 2024-02-05T12:06:25.805157 BTC-USDT = 43035.6
+2024-02-05 12:06:25,805 [INFO] logging_config: 2024-02-05T12:06:25.805157 XRP-USDT = 0.5035
+2024-02-05 12:06:25,805 [INFO] logging_config: 2024-02-05T12:06:25.805157 ETH-USDT = 2323.93
+2024-02-05 12:06:30,815 [INFO] logging_config: 2024-02-05T12:06:30.815546 BTC-USDT = 43035.6
+2024-02-05 12:06:30,815 [INFO] logging_config: 2024-02-05T12:06:30.815546 XRP-USDT = 0.5035
+2024-02-05 12:06:30,815 [INFO] logging_config: 2024-02-05T12:06:30.815546 ETH-USDT = 2324.03
+2024-02-05 12:06:35,442 [DEBUG] websockets.client: ! timed out waiting for TCP close
+2024-02-05 12:06:35,442 [DEBUG] websockets.client: x closing TCP connection
+2024-02-05 12:06:35,832 [INFO] logging_config: 2024-02-05T12:06:35.832031 BTC-USDT = 43035.6
+2024-02-05 12:06:35,833 [INFO] logging_config: 2024-02-05T12:06:35.832031 XRP-USDT = 0.5035
+2024-02-05 12:06:35,833 [INFO] logging_config: 2024-02-05T12:06:35.833044 ETH-USDT = 2324.23
+2024-02-05 12:06:40,846 [INFO] logging_config: 2024-02-05T12:06:40.846248 BTC-USDT = 43035.6
+2024-02-05 12:06:40,846 [INFO] logging_config: 2024-02-05T12:06:40.846248 XRP-USDT = 0.5035
+2024-02-05 12:06:40,846 [INFO] logging_config: 2024-02-05T12:06:40.846248 ETH-USDT = 2324.23
+2024-02-05 12:06:45,453 [DEBUG] websockets.client: ! timed out waiting for TCP close
+2024-02-05 12:06:45,453 [DEBUG] websockets.client: x aborting TCP connection
+2024-02-05 12:06:45,453 [DEBUG] websockets.client: = connection is CLOSED
+2024-02-05 12:06:45,845 [INFO] logging_config: 2024-02-05T12:06:45.845198 BTC-USDT = 43035.5
+2024-02-05 12:06:45,845 [INFO] logging_config: 2024-02-05T12:06:45.845198 XRP-USDT = 0.5035
+2024-02-05 12:06:45,845 [INFO] logging_config: 2024-02-05T12:06:45.845198 ETH-USDT = 2324.23
+2024-02-05 12:06:50,853 [INFO] logging_config: 2024-02-05T12:06:50.853899 BTC-USDT = 43035.5
+2024-02-05 12:06:50,853 [INFO] logging_config: 2024-02-05T12:06:50.853899 XRP-USDT = 0.5035
+2024-02-05 12:06:50,854 [INFO] logging_config: 2024-02-05T12:06:50.854927 ETH-USDT = 2324.29
+2024-02-05 12:06:55,866 [INFO] logging_config: 2024-02-05T12:06:55.866579 BTC-USDT = 43035.5
+2024-02-05 12:06:55,867 [INFO] logging_config: 2024-02-05T12:06:55.867571 XRP-USDT = 0.5035
+2024-02-05 12:06:55,867 [INFO] logging_config: 2024-02-05T12:06:55.867571 ETH-USDT = 2324.29
+2024-02-05 12:07:00,877 [INFO] logging_config: 2024-02-05T12:07:00.877586 BTC-USDT = 43035.5
+2024-02-05 12:07:00,877 [INFO] logging_config: 2024-02-05T12:07:00.877586 XRP-USDT = 0.5035
+2024-02-05 12:07:00,878 [INFO] logging_config: 2024-02-05T12:07:00.878454 ETH-USDT = 2324.29
+2024-02-05 12:07:05,893 [INFO] logging_config: 2024-02-05T12:07:05.893848 BTC-USDT = 43035.5
+2024-02-05 12:07:05,893 [INFO] logging_config: 2024-02-05T12:07:05.893848 XRP-USDT = 0.5035
+2024-02-05 12:07:05,893 [INFO] logging_config: 2024-02-05T12:07:05.893848 ETH-USDT = 2324.29
+2024-02-05 12:07:10,895 [INFO] logging_config: 2024-02-05T12:07:10.895231 BTC-USDT = 43035.5
+2024-02-05 12:07:10,896 [INFO] logging_config: 2024-02-05T12:07:10.895231 XRP-USDT = 0.5035
+2024-02-05 12:07:10,896 [INFO] logging_config: 2024-02-05T12:07:10.896275 ETH-USDT = 2324.25
+2024-02-05 12:07:15,901 [INFO] logging_config: 2024-02-05T12:07:15.901442 BTC-USDT = 43035.4
+2024-02-05 12:07:15,901 [INFO] logging_config: 2024-02-05T12:07:15.901949 XRP-USDT = 0.5035
+2024-02-05 12:07:15,901 [ERROR] logging_config: Connection to OKX closed: sent 1011 (internal error) keepalive ping timeout; no close frame received
+2024-02-05 12:07:20,940 [DEBUG] websockets.client: = connection is CONNECTING
+2024-02-05 12:07:20,992 [DEBUG] websockets.client: > GET /ws/v5/public HTTP/1.1
+2024-02-05 12:07:20,992 [DEBUG] websockets.client: > Host: ws.okx.com:8443
+2024-02-05 12:07:20,992 [DEBUG] websockets.client: > Upgrade: websocket
+2024-02-05 12:07:20,992 [DEBUG] websockets.client: > Connection: Upgrade
+2024-02-05 12:07:20,992 [DEBUG] websockets.client: > Sec-WebSocket-Key: V8fn1Pvr/x96TNDVmg84mQ==
+2024-02-05 12:07:20,992 [DEBUG] websockets.client: > Sec-WebSocket-Version: 13
+2024-02-05 12:07:20,992 [DEBUG] websockets.client: > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2024-02-05 12:07:20,992 [DEBUG] websockets.client: > User-Agent: Python/3.11 websockets/12.0
+2024-02-05 12:07:21,928 [DEBUG] websockets.client: < HTTP/1.1 101 Switching Protocols
+2024-02-05 12:07:21,928 [DEBUG] websockets.client: < Date: Mon, 05 Feb 2024 09:07:21 GMT
+2024-02-05 12:07:21,928 [DEBUG] websockets.client: < Connection: upgrade
+2024-02-05 12:07:21,928 [DEBUG] websockets.client: < upgrade: websocket
+2024-02-05 12:07:21,928 [DEBUG] websockets.client: < sec-websocket-accept: KZb6hMYhNNh6CcDPs/rewpUGOO0=
+2024-02-05 12:07:21,928 [DEBUG] websockets.client: < sec-websocket-extensions: permessage-deflate
+2024-02-05 12:07:21,928 [DEBUG] websockets.client: < CF-Cache-Status: DYNAMIC
+2024-02-05 12:07:21,928 [DEBUG] websockets.client: < Set-Cookie: __cf_bm=C3uUOyc3Vs9GvUKjBUYIoVazILYvfnTMJUfYPkVDCYI-1707124041-1-AU9iDIfrQsid+R6DSdxRf3r2uAUV7J9RRYcQ3Fky2Zh3/ALyUDlCOlGPahjeGHr+gErRiRJCT2deH7tgNcYbGKA=; path=/; expires=Mon, 05-Feb-24 09:37:21 GMT; domain=.okx.com; HttpOnly; Secure; SameSite=None
+2024-02-05 12:07:21,928 [DEBUG] websockets.client: < Server: cloudflare
+2024-02-05 12:07:21,928 [DEBUG] websockets.client: < CF-RAY: 850a00a8df27fc83-WAW
+2024-02-05 12:07:21,928 [DEBUG] websockets.client: = connection is OPEN
+2024-02-05 12:07:21,928 [INFO] logging_config: Connected to OKX2024-02-05T12:07:21.928367
+2024-02-05 12:07:21,928 [DEBUG] websockets.client: > TEXT '{"op": "subscribe", "args": [{"channel": "mark-..."instId": "XRP-USDT"}]}' [176 bytes]
+2024-02-05 12:07:22,229 [DEBUG] websockets.client: < TEXT '{"event":"subscribe","arg":{"channel":"mark-pri..."},"connId":"7189dbbe"}' [92 bytes]
+2024-02-05 12:07:22,229 [DEBUG] websockets.client: < TEXT '{"event":"subscribe","arg":{"channel":"mark-pri..."},"connId":"7189dbbe"}' [92 bytes]
+2024-02-05 12:07:22,230 [DEBUG] websockets.client: < TEXT '{"event":"subscribe","arg":{"channel":"mark-pri..."},"connId":"7189dbbe"}' [92 bytes]
+2024-02-05 12:07:22,230 [INFO] logging_config: ******** event subscribe ********
+2024-02-05 12:07:22,230 [INFO] logging_config: ******** event subscribe ********
+2024-02-05 12:07:22,230 [INFO] logging_config: ******** event subscribe ********
+2024-02-05 12:07:22,230 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124041964"}]}' [143 bytes]
+2024-02-05 12:07:22,230 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124041966"}]}' [142 bytes]
+2024-02-05 12:07:22,230 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124041924"}]}' [143 bytes]
+2024-02-05 12:07:22,290 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124042125"}]}' [143 bytes]
+2024-02-05 12:07:22,313 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124042162"}]}' [143 bytes]
+2024-02-05 12:07:22,326 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124042165"}]}' [142 bytes]
+2024-02-05 12:07:22,478 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124042326"}]}' [143 bytes]
+2024-02-05 12:07:22,516 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124042363"}]}' [143 bytes]
+2024-02-05 12:07:22,521 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124042366"}]}' [142 bytes]
+2024-02-05 12:07:22,681 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124042527"}]}' [143 bytes]
+2024-02-05 12:07:22,724 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124042567"}]}' [142 bytes]
+2024-02-05 12:07:22,729 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124042564"}]}' [143 bytes]
+2024-02-05 12:07:22,880 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124042728"}]}' [143 bytes]
+2024-02-05 12:07:22,920 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124042768"}]}' [142 bytes]
+2024-02-05 12:07:22,920 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124042766"}]}' [143 bytes]
+2024-02-05 12:07:23,079 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124042928"}]}' [143 bytes]
+2024-02-05 12:07:23,116 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124042968"}]}' [143 bytes]
+2024-02-05 12:07:23,126 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124042969"}]}' [142 bytes]
+2024-02-05 12:07:23,283 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124043131"}]}' [143 bytes]
+2024-02-05 12:07:23,321 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124043168"}]}' [143 bytes]
+2024-02-05 12:07:23,321 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124043170"}]}' [142 bytes]
+2024-02-05 12:07:23,484 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124043333"}]}' [143 bytes]
+2024-02-05 12:07:23,521 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124043368"}]}' [143 bytes]
+2024-02-05 12:07:23,530 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124043374"}]}' [142 bytes]
+2024-02-05 12:07:23,686 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124043534"}]}' [143 bytes]
+2024-02-05 12:07:23,729 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124043570"}]}' [143 bytes]
+2024-02-05 12:07:23,730 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124043575"}]}' [142 bytes]
+2024-02-05 12:07:23,891 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124043735"}]}' [143 bytes]
+2024-02-05 12:07:23,923 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124043771"}]}' [143 bytes]
+2024-02-05 12:07:23,933 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124043780"}]}' [142 bytes]
+2024-02-05 12:07:24,086 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124043936"}]}' [143 bytes]
+2024-02-05 12:07:24,140 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124043981"}]}' [142 bytes]
+2024-02-05 12:07:24,159 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124043971"}]}' [143 bytes]
+2024-02-05 12:07:27,236 [INFO] logging_config: 2024-02-05T12:07:27.236569 BTC-USDT = 43022.9
+2024-02-05 12:07:27,237 [INFO] logging_config: 2024-02-05T12:07:27.237570 XRP-USDT = 0.5035
+2024-02-05 12:07:27,237 [INFO] logging_config: 2024-02-05T12:07:27.237570 ETH-USDT = 2321.36
+2024-02-05 12:07:27,238 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124044137"}]}' [143 bytes]
+2024-02-05 12:07:27,238 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124044172"}]}' [143 bytes]
+2024-02-05 12:07:27,238 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124044185"}]}' [142 bytes]
+2024-02-05 12:07:32,258 [INFO] logging_config: 2024-02-05T12:07:32.258545 ETH-USDT = 2321.36
+2024-02-05 12:07:32,259 [INFO] logging_config: 2024-02-05T12:07:32.259224 BTC-USDT = 43022.9
+2024-02-05 12:07:32,259 [INFO] logging_config: 2024-02-05T12:07:32.259224 XRP-USDT = 0.5035
+2024-02-05 12:07:32,259 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124044338"}]}' [143 bytes]
+2024-02-05 12:07:32,260 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124044374"}]}' [143 bytes]
+2024-02-05 12:07:32,260 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124044387"}]}' [142 bytes]
+2024-02-05 12:07:37,259 [INFO] logging_config: 2024-02-05T12:07:37.259409 ETH-USDT = 2321.37
+2024-02-05 12:07:37,260 [INFO] logging_config: 2024-02-05T12:07:37.260409 BTC-USDT = 43022.9
+2024-02-05 12:07:37,260 [INFO] logging_config: 2024-02-05T12:07:37.260409 XRP-USDT = 0.5035
+2024-02-05 12:07:37,261 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124044540"}]}' [143 bytes]
+2024-02-05 12:07:37,261 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124044574"}]}' [143 bytes]
+2024-02-05 12:07:37,262 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124044589"}]}' [142 bytes]
+2024-02-05 12:07:42,275 [INFO] logging_config: 2024-02-05T12:07:42.275106 ETH-USDT = 2321.37
+2024-02-05 12:07:42,275 [INFO] logging_config: 2024-02-05T12:07:42.275106 XRP-USDT = 0.5035
+2024-02-05 12:07:42,275 [INFO] logging_config: 2024-02-05T12:07:42.275106 BTC-USDT = 43022.9
+2024-02-05 12:07:42,275 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124044741"}]}' [143 bytes]
+2024-02-05 12:07:42,275 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124044775"}]}' [143 bytes]
+2024-02-05 12:07:42,275 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124044791"}]}' [142 bytes]
+2024-02-05 12:07:47,257 [INFO] logging_config: 2024-02-05T12:07:47.257044 ETH-USDT = 2321.37
+2024-02-05 12:07:47,258 [INFO] logging_config: 2024-02-05T12:07:47.258043 XRP-USDT = 0.5035
+2024-02-05 12:07:47,258 [INFO] logging_config: 2024-02-05T12:07:47.258043 BTC-USDT = 43022.9
+2024-02-05 12:07:47,258 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124044942"}]}' [143 bytes]
+2024-02-05 12:07:47,259 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124044976"}]}' [143 bytes]
+2024-02-05 12:07:47,259 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124044991"}]}' [142 bytes]
+2024-02-05 12:07:51,942 [DEBUG] websockets.client: % sending keepalive ping
+2024-02-05 12:07:51,942 [DEBUG] websockets.client: > PING 32 1c 4b ae [binary, 4 bytes]
+2024-02-05 12:07:52,268 [INFO] logging_config: 2024-02-05T12:07:52.268198 ETH-USDT = 2321.36
+2024-02-05 12:07:52,268 [INFO] logging_config: 2024-02-05T12:07:52.268198 BTC-USDT = 43022.9
+2024-02-05 12:07:52,268 [INFO] logging_config: 2024-02-05T12:07:52.268198 XRP-USDT = 0.5035
+2024-02-05 12:07:52,268 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124045144"}]}' [143 bytes]
+2024-02-05 12:07:52,269 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124045177"}]}' [143 bytes]
+2024-02-05 12:07:52,269 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124045192"}]}' [142 bytes]
+2024-02-05 12:07:57,252 [INFO] logging_config: 2024-02-05T12:07:57.252439 ETH-USDT = 2321.36
+2024-02-05 12:07:57,253 [INFO] logging_config: 2024-02-05T12:07:57.253440 BTC-USDT = 43022.9
+2024-02-05 12:07:57,253 [INFO] logging_config: 2024-02-05T12:07:57.253440 XRP-USDT = 0.5035
+2024-02-05 12:07:57,254 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124045344"}]}' [143 bytes]
+2024-02-05 12:07:57,254 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124045379"}]}' [143 bytes]
+2024-02-05 12:07:57,254 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124045397"}]}' [142 bytes]
+2024-02-05 12:08:02,266 [INFO] logging_config: 2024-02-05T12:08:02.266004 ETH-USDT = 2321.36
+2024-02-05 12:08:02,266 [INFO] logging_config: 2024-02-05T12:08:02.266985 BTC-USDT = 43022.8
+2024-02-05 12:08:02,266 [INFO] logging_config: 2024-02-05T12:08:02.266985 XRP-USDT = 0.5035
+2024-02-05 12:08:02,267 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124045546"}]}' [143 bytes]
+2024-02-05 12:08:02,267 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124045580"}]}' [143 bytes]
+2024-02-05 12:08:02,267 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124045601"}]}' [142 bytes]
+2024-02-05 12:08:07,268 [INFO] logging_config: 2024-02-05T12:08:07.268285 ETH-USDT = 2321.36
+2024-02-05 12:08:07,268 [INFO] logging_config: 2024-02-05T12:08:07.268285 BTC-USDT = 43022.8
+2024-02-05 12:08:07,268 [INFO] logging_config: 2024-02-05T12:08:07.268285 XRP-USDT = 0.5035
+2024-02-05 12:08:07,268 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124045747"}]}' [143 bytes]
+2024-02-05 12:08:07,268 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124045781"}]}' [143 bytes]
+2024-02-05 12:08:07,269 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124045805"}]}' [142 bytes]
+2024-02-05 12:08:12,275 [INFO] logging_config: 2024-02-05T12:08:12.275150 ETH-USDT = 2321.36
+2024-02-05 12:08:12,275 [INFO] logging_config: 2024-02-05T12:08:12.275150 BTC-USDT = 43022.8
+2024-02-05 12:08:12,275 [INFO] logging_config: 2024-02-05T12:08:12.275150 XRP-USDT = 0.5035
+2024-02-05 12:08:12,276 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124045948"}]}' [143 bytes]
+2024-02-05 12:08:12,276 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124045982"}]}' [143 bytes]
+2024-02-05 12:08:12,276 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124046009"}]}' [142 bytes]
+2024-02-05 12:08:17,260 [INFO] logging_config: 2024-02-05T12:08:17.260060 ETH-USDT = 2321.36
+2024-02-05 12:08:17,260 [INFO] logging_config: 2024-02-05T12:08:17.260608 XRP-USDT = 0.5035
+2024-02-05 12:08:17,260 [INFO] logging_config: 2024-02-05T12:08:17.260608 BTC-USDT = 43022.8
+2024-02-05 12:08:17,260 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124046149"}]}' [143 bytes]
+2024-02-05 12:08:17,260 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124046184"}]}' [143 bytes]
+2024-02-05 12:08:17,260 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124046212"}]}' [142 bytes]
+2024-02-05 12:08:22,258 [INFO] logging_config: 2024-02-05T12:08:22.258687 ETH-USDT = 2321.36
+2024-02-05 12:08:22,258 [INFO] logging_config: 2024-02-05T12:08:22.258687 BTC-USDT = 43022.8
+2024-02-05 12:08:22,259 [INFO] logging_config: 2024-02-05T12:08:22.259688 XRP-USDT = 0.5035
+2024-02-05 12:08:22,259 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124046351"}]}' [143 bytes]
+2024-02-05 12:08:22,259 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124046384"}]}' [143 bytes]
+2024-02-05 12:08:22,260 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124046415"}]}' [142 bytes]
+2024-02-05 12:08:27,263 [INFO] logging_config: 2024-02-05T12:08:27.263112 ETH-USDT = 2321.34
+2024-02-05 12:08:27,263 [INFO] logging_config: 2024-02-05T12:08:27.263635 BTC-USDT = 43022.8
+2024-02-05 12:08:27,263 [INFO] logging_config: 2024-02-05T12:08:27.263635 XRP-USDT = 0.5035
+2024-02-05 12:08:27,263 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124046552"}]}' [143 bytes]
+2024-02-05 12:08:27,263 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124046586"}]}' [143 bytes]
+2024-02-05 12:08:27,263 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124046618"}]}' [142 bytes]
+2024-02-05 12:08:32,274 [INFO] logging_config: 2024-02-05T12:08:32.274285 ETH-USDT = 2321.32
+2024-02-05 12:08:32,275 [INFO] logging_config: 2024-02-05T12:08:32.275276 BTC-USDT = 43022.8
+2024-02-05 12:08:32,276 [INFO] logging_config: 2024-02-05T12:08:32.275276 XRP-USDT = 0.5035
+2024-02-05 12:08:32,276 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124046754"}]}' [143 bytes]
+2024-02-05 12:08:32,276 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124046787"}]}' [143 bytes]
+2024-02-05 12:08:32,277 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124046818"}]}' [142 bytes]
+2024-02-05 12:08:37,275 [INFO] logging_config: 2024-02-05T12:08:37.275155 ETH-USDT = 2321.31
+2024-02-05 12:08:37,275 [INFO] logging_config: 2024-02-05T12:08:37.275155 BTC-USDT = 43022.8
+2024-02-05 12:08:37,275 [INFO] logging_config: 2024-02-05T12:08:37.275155 XRP-USDT = 0.5035
+2024-02-05 12:08:37,275 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124046955"}]}' [143 bytes]
+2024-02-05 12:08:37,275 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124046987"}]}' [143 bytes]
+2024-02-05 12:08:37,275 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124047019"}]}' [142 bytes]
+2024-02-05 12:08:42,258 [INFO] logging_config: 2024-02-05T12:08:42.258200 ETH-USDT = 2321.31
+2024-02-05 12:08:42,258 [INFO] logging_config: 2024-02-05T12:08:42.258200 BTC-USDT = 43022.8
+2024-02-05 12:08:42,259 [INFO] logging_config: 2024-02-05T12:08:42.259187 XRP-USDT = 0.5035
+2024-02-05 12:08:42,259 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124047156"}]}' [143 bytes]
+2024-02-05 12:08:42,259 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124047190"}]}' [143 bytes]
+2024-02-05 12:08:42,259 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124047222"}]}' [142 bytes]
+2024-02-05 12:08:47,254 [INFO] logging_config: 2024-02-05T12:08:47.254457 ETH-USDT = 2321.31
+2024-02-05 12:08:47,254 [INFO] logging_config: 2024-02-05T12:08:47.254457 BTC-USDT = 43022.8
+2024-02-05 12:08:47,254 [INFO] logging_config: 2024-02-05T12:08:47.254457 XRP-USDT = 0.5035
+2024-02-05 12:08:47,254 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124047358"}]}' [143 bytes]
+2024-02-05 12:08:47,254 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124047389"}]}' [143 bytes]
+2024-02-05 12:08:47,254 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124047424"}]}' [142 bytes]
+2024-02-05 12:08:52,267 [INFO] logging_config: 2024-02-05T12:08:52.267984 ETH-USDT = 2321.31
+2024-02-05 12:08:52,267 [INFO] logging_config: 2024-02-05T12:08:52.267984 BTC-USDT = 43022.8
+2024-02-05 12:08:52,267 [INFO] logging_config: 2024-02-05T12:08:52.267984 XRP-USDT = 0.5035
+2024-02-05 12:08:52,267 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124047559"}]}' [143 bytes]
+2024-02-05 12:08:52,268 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124047590"}]}' [143 bytes]
+2024-02-05 12:08:52,268 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124047626"}]}' [142 bytes]
+2024-02-05 12:08:57,284 [INFO] logging_config: 2024-02-05T12:08:57.284161 ETH-USDT = 2321.3
+2024-02-05 12:08:57,284 [INFO] logging_config: 2024-02-05T12:08:57.284161 BTC-USDT = 43022.8
+2024-02-05 12:08:57,284 [INFO] logging_config: 2024-02-05T12:08:57.284161 XRP-USDT = 0.5035
+2024-02-05 12:08:57,284 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124047760"}]}' [143 bytes]
+2024-02-05 12:08:57,284 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124047792"}]}' [143 bytes]
+2024-02-05 12:08:57,284 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124047829"}]}' [142 bytes]
+2024-02-05 12:09:02,310 [INFO] logging_config: 2024-02-05T12:09:02.310386 ETH-USDT = 2321.3
+2024-02-05 12:09:02,311 [INFO] logging_config: 2024-02-05T12:09:02.311107 BTC-USDT = 43022.8
+2024-02-05 12:09:02,311 [INFO] logging_config: 2024-02-05T12:09:02.311107 XRP-USDT = 0.5035
+2024-02-05 12:09:02,312 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124047961"}]}' [143 bytes]
+2024-02-05 12:09:02,312 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124047992"}]}' [143 bytes]
+2024-02-05 12:09:02,312 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124048033"}]}' [142 bytes]
+2024-02-05 12:09:07,299 [INFO] logging_config: 2024-02-05T12:09:07.299526 ETH-USDT = 2321.3
+2024-02-05 12:09:07,299 [INFO] logging_config: 2024-02-05T12:09:07.299526 BTC-USDT = 43022.8
+2024-02-05 12:09:07,299 [INFO] logging_config: 2024-02-05T12:09:07.299526 XRP-USDT = 0.5035
+2024-02-05 12:09:07,299 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124048163"}]}' [143 bytes]
+2024-02-05 12:09:07,300 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124048195"}]}' [143 bytes]
+2024-02-05 12:09:07,300 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124048235"}]}' [142 bytes]
+2024-02-05 12:09:12,299 [INFO] logging_config: 2024-02-05T12:09:12.299043 ETH-USDT = 2321.3
+2024-02-05 12:09:12,299 [INFO] logging_config: 2024-02-05T12:09:12.299043 BTC-USDT = 43022.8
+2024-02-05 12:09:12,299 [INFO] logging_config: 2024-02-05T12:09:12.299043 XRP-USDT = 0.5035
+2024-02-05 12:09:12,299 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124048364"}]}' [143 bytes]
+2024-02-05 12:09:12,299 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124048394"}]}' [143 bytes]
+2024-02-05 12:09:12,299 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124048436"}]}' [142 bytes]
+2024-02-05 12:09:17,289 [INFO] logging_config: 2024-02-05T12:09:17.289818 ETH-USDT = 2321.3
+2024-02-05 12:09:17,289 [INFO] logging_config: 2024-02-05T12:09:17.289818 BTC-USDT = 43022.8
+2024-02-05 12:09:17,290 [INFO] logging_config: 2024-02-05T12:09:17.290818 XRP-USDT = 0.5035
+2024-02-05 12:09:17,290 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"ETH-US..."ts":"1707124048565"}]}' [143 bytes]
+2024-02-05 12:09:17,290 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"BTC-US..."ts":"1707124048595"}]}' [143 bytes]
+2024-02-05 12:09:17,290 [DEBUG] websockets.client: < TEXT '{"arg":{"channel":"mark-price","instId":"XRP-US..."ts":"1707124048637"}]}' [142 bytes]
+2024-02-05 12:09:21,944 [DEBUG] websockets.client: ! timed out waiting for keepalive pong
+2024-02-05 12:09:21,944 [DEBUG] websockets.client: ! failing connection with code 1011
+2024-02-05 12:09:21,945 [DEBUG] websockets.client: = connection is CLOSING
+2024-02-05 12:09:21,945 [DEBUG] websockets.client: > CLOSE 1011 (internal error) keepalive ping timeout [24 bytes]
+2024-02-05 12:09:22,287 [INFO] logging_config: 2024-02-05T12:09:22.287194 ETH-USDT = 2321.3
+2024-02-05 12:09:22,287 [INFO] logging_config: 2024-02-05T12:09:22.287194 BTC-USDT = 43022.7
+2024-02-05 12:09:22,287 [INFO] logging_config: 2024-02-05T12:09:22.287194 XRP-USDT = 0.5035
+2024-02-05 12:09:27,293 [INFO] logging_config: 2024-02-05T12:09:27.293518 ETH-USDT = 2321.29
+2024-02-05 12:09:27,293 [INFO] logging_config: 2024-02-05T12:09:27.293518 BTC-USDT = 43022.7
+2024-02-05 12:09:27,293 [INFO] logging_config: 2024-02-05T12:09:27.293518 XRP-USDT = 0.5035
+2024-02-05 12:09:31,953 [DEBUG] websockets.client: ! timed out waiting for TCP close
+2024-02-05 12:09:31,953 [DEBUG] websockets.client: x closing TCP connection
+2024-02-05 12:09:32,297 [INFO] logging_config: 2024-02-05T12:09:32.297087 ETH-USDT = 2321.29
+2024-02-05 12:09:32,298 [INFO] logging_config: 2024-02-05T12:09:32.298014 BTC-USDT = 43022.7
+2024-02-05 12:09:32,298 [INFO] logging_config: 2024-02-05T12:09:32.298014 XRP-USDT = 0.5035
+2024-02-05 12:09:37,307 [INFO] logging_config: 2024-02-05T12:09:37.307224 ETH-USDT = 2321.29
+2024-02-05 12:09:37,308 [INFO] logging_config: 2024-02-05T12:09:37.308221 BTC-USDT = 43022.7
+2024-02-05 12:09:37,308 [INFO] logging_config: 2024-02-05T12:09:37.308221 XRP-USDT = 0.5035
+2024-02-05 12:09:41,971 [DEBUG] websockets.client: ! timed out waiting for TCP close
+2024-02-05 12:09:41,971 [DEBUG] websockets.client: x aborting TCP connection
+2024-02-05 12:09:41,972 [DEBUG] websockets.client: = connection is CLOSED
+2024-02-05 12:09:42,315 [INFO] logging_config: 2024-02-05T12:09:42.315431 ETH-USDT = 2321.3
+2024-02-05 12:09:42,316 [INFO] logging_config: 2024-02-05T12:09:42.316384 BTC-USDT = 43022.7
+2024-02-05 12:09:42,316 [INFO] logging_config: 2024-02-05T12:09:42.316384 XRP-USDT = 0.5035
+2024-02-05 12:09:47,322 [INFO] logging_config: 2024-02-05T12:09:47.322585 ETH-USDT = 2321.29
+2024-02-05 12:09:47,322 [INFO] logging_config: 2024-02-05T12:09:47.322585 BTC-USDT = 43022.7
+2024-02-05 12:09:47,322 [INFO] logging_config: 2024-02-05T12:09:47.322585 XRP-USDT = 0.5035
+2024-02-05 12:09:52,326 [INFO] logging_config: 2024-02-05T12:09:52.326903 ETH-USDT = 2321.29
+2024-02-05 12:09:52,327 [INFO] logging_config: 2024-02-05T12:09:52.327347 BTC-USDT = 43022.7
+2024-02-05 12:09:52,327 [INFO] logging_config: 2024-02-05T12:09:52.327347 XRP-USDT = 0.5035
+2024-02-05 12:09:57,332 [INFO] logging_config: 2024-02-05T12:09:57.332150 ETH-USDT = 2321.29
+2024-02-05 12:09:57,332 [INFO] logging_config: 2024-02-05T12:09:57.332150 BTC-USDT = 43022.7
+2024-02-05 12:09:57,332 [INFO] logging_config: 2024-02-05T12:09:57.332150 XRP-USDT = 0.5035
