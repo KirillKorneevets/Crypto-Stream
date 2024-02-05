@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binance and OKX Streams</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.4/socket.io.js"></script>
+    <script>
+        const socket = io.connect('http://' + document.domain + ':' + location.port);
+
+        socket.on('update_data', function(data) {
+            updateDataList(data);
+        });
+
+        function updateDataList(data) {
+            const dataList = document.getElementById('data-list');
+            const existingItem = document.getElementById(data.symbol);
+
+            if (existingItem) {
+                existingItem.textContent = `${data.symbol} - Price: ${data.price}`;
+            } else {
+                const newItem = document.createElement('li');
+                newItem.id = data.symbol;
+                newItem.textContent = `${data.symbol} - Price: ${data.price}`;
+                dataList.appendChild(newItem);
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Binance and OKX Streams</h1>
+    <ul id="data-list">
+        <!-- Список будет автоматически обновляться с помощью JavaScript -->
+    </ul>
+</body>
+</html>
+
